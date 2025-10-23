@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML4 to HTML5 Layout</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin:0; }
+    header, nav, section, article, aside, footer { padding: 16px; }
+    header { background: #111827; color: white; }
+    nav { background: #e5e7eb; }
+    main { display: grid; grid-template-columns: 2fr 1fr; gap: 16px; padding: 16px; }
+    article, aside { background: #f9fafb; border: 1px solid #e5e7eb; border-radius: 8px; }
+    figure { margin: 0; padding: 12px; }
+    figcaption { font-size: 14px; color: #4b5563; }
+    footer { background: #111827; color: white; text-align: center; }
+    ul { margin: 0; padding-left: 18px; }
+    a { color: #0369a1; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Website UEH</h1>
+    <hgroup>
+      <h2>Khoa Công Nghệ Thông Tin Kinh Doanh</h2>
+      <p>HTML5 Semantic Layout Demo</p>
+    </hgroup>
+  </header>
+
+  <nav aria-label="Chính">
+    <ul>
+      <li><a href="#">Trang chủ</a></li>
+      <li><a href="#">Giới thiệu</a></li>
+      <li><a href="#">Đào tạo</a></li>
+      <li><a href="#">Liên hệ</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section aria-labelledby="cntt">
+      <article id="cntt">
+        <h2>Chuyên ngành CNTT</h2>
+        <p>Thông tin về chương trình đào tạo Công nghệ Thông tin Kinh doanh tại UEH.</p>
+        <figure>
+          <img src="placeholder.jpg" alt="Hình minh hoạ" style="max-width:100%; border-radius:8px;">
+          <figcaption>Hình 1. Minh hoạ chương trình.</figcaption>
+        </figure>
+      </article>
+
+      <article>
+        <h2>Tin tức &amp; sự kiện</h2>
+        <p>Cập nhật các hoạt động học thuật và sự kiện của khoa.</p>
+      </article>
+    </section>
+
+    <aside aria-label="Thanh bên">
+      <h3>Tài nguyên nhanh</h3>
+      <ul>
+        <li><a href="http://bit.ueh.edu.vn/cong-nghe-phan-mem/" target="_blank" rel="noopener">Công nghệ phần mềm</a></li>
+        <li><a href="http://bit.ueh.edu.vn/chuyen-nganh-thuong-mai-dien-tu/" target="_blank" rel="noopener">Thương mại điện tử</a></li>
+        <li><a href="http://bit.ueh.edu.vn/chuyen-nganh-he-thong-thong-tin-kinh-doanh/" target="_blank" rel="noopener">Hệ thống thông tin kinh doanh</a></li>
+      </ul>
+    </aside>
+  </main>
+
+  <footer>
+    <p>© UEH – Email: <a href="mailto:tuannm@ueh.edu.vn" style="color:#93c5fd;">tuannm@ueh.edu.vn</a></p>
+  </footer>
+</body>
+</html>

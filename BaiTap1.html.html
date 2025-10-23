@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="vi">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Bài tập HTML – Khoa CNTT Kinh Doanh (UEH)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root {
+      --ueh-blue: #1e66ff;
+      --ueh-red: #d72d2d;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --card: #ffffffcc;
+    }
+
+    * {
+      box-sizing: border-box
+    }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      color: var(--text);
+      background: #f3f4f6 url("./assets/bg.jpg") center/cover fixed no-repeat;
+      line-height: 1.6;
+    }
+
+    .page {
+      background: rgba(255, 255, 255, 0.84);
+      backdrop-filter: saturate(120%) blur(2px);
+      max-width: 980px;
+      margin: auto;
+      padding: 28px 24px 56px;
+      min-height: 100vh
+    }
+
+    h1 {
+      text-align: center;
+      color: var(--ueh-blue);
+      font-size: 2rem;
+      margin: .5rem 0 1rem;
+      font-weight: 800;
+    }
+
+    h2 {
+      text-align: right;
+      color: var(--ueh-red);
+      font-style: italic;
+      margin: .25rem 0 1.25rem;
+    }
+
+    .marquee {
+      overflow: hidden;
+      white-space: nowrap;
+      border: 2px dashed var(--ueh-blue);
+      padding: .5rem .75rem;
+      font-weight: 700;
+      color: var(--ueh-blue);
+      background: #eef4ff;
+    }
+
+    .marquee span {
+      display: inline-block;
+      padding-left: 100%;
+      animation: run 12s linear infinite
+    }
+
+    @keyframes run {
+      0% {
+        transform: translateX(0)
+      }
+
+      100% {
+        transform: translateX(-100%)
+      }
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid #e5e7eb;
+      border-radius: 12px;
+      padding: 16px;
+      margin: 18px 0
+    }
+
+    ol.roman {
+      list-style-type: upper-roman
+    }
+
+    nav.quick a {
+      margin-right: 12px
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      background: white
+    }
+
+    th,
+    td {
+      border: 1px solid #cbd5e1;
+      padding: 8px 10px;
+      text-align: left
+    }
+
+    th {
+      background: #e5edff
+    }
+
+    .note {
+      color: var(--muted);
+      font-size: .925rem
+    }
+
+    .grid {
+      display: grid;
+      gap: 16px
+    }
+
+    @media(min-width:800px) {
+      .grid-3 {
+        grid-template-columns: repeat(3, 1fr)
+      }
+    }
+
+    footer {
+      margin-top: 36px;
+      text-align: center;
+      color: #6b7280
+    }
+
+    .toplink {
+      position: fixed;
+      right: 14px;
+      bottom: 16px;
+      background: #111827;
+      color: #fff;
+      padding: 8px 12px;
+      border-radius: 999px;
+      text-decoration: none
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page" id="top">
+    <!-- 1) Tiêu đề theo yêu cầu -->
+    <h1>Chào mừng bạn đến website của trường ĐHKT TP.HCM</h1>
+    <h2>Khoa Công Nghệ Thông Tin Kinh Doanh</h2>
+
+    <!-- 2) Nhạc nền + chữ "chạy" -->
+    <div class="card">
+      <p class="marquee" aria-label="Dòng chữ chạy">
+        <span>Chào mừng bạn đến website của trường ĐHKT TP.HCM — Welcome to UEH! &nbsp;•&nbsp;</span>
+      </p>
+      <p class="note">Nhạc nền (dùng <code>&lt;audio&gt;</code>, bật play để nghe):</p>
+      <!-- Dùng file cục bộ nếu có: ./assets/music.mp3 -->
+      <audio controls loop>
+        <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg" />
+        <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg" />
+        Trình duyệt của bạn không hỗ trợ thẻ audio.
+      </audio>
+    </div>
+
+    <!-- Danh sách chuyên ngành đào tạo -->
+    <section id="cau3" class="card">
+      <h3>Danh sách chuyên ngành đào tạo</h3>
+      <ul>
+        <li>Đại học
+          <ul>
+            <li>Hệ thống thông tin quản lý</li>
+            <li>Thương mại điện tử</li>
+            <li>ERP</li>
+          </ul>
+        </li>
+        <li>Sau đại học
+          <ul>
+            <li>Thạc sĩ Công nghệ thiết kế thông tin &amp; truyền thông</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <!-- 4) Nội dung lấy từ trang đào tạo (để link tham khảo) -->
+    <section id="cau4" class="card">
+      <h3>4. Tài liệu &amp; tham khảo</h3>
+      <p>Xem thêm nội dung đào tạo tại:
+        <a href="https://bit.ueh.edu.vn/dao-tao" target="_blank" rel="noopener">https://bit.ueh.edu.vn/dao-tao</a>
+      </p>
+    </section>
+
+    <!-- 5) Ảnh + liên kết theo yêu cầu -->
+    <section id="cau5" class="card">
+      <h3>5. Liên kết tới ngành</h3>
+      <div class="grid grid-3">
+        <figure>
+          <img src="https://bit.ueh.edu.vn/wp-content/uploads/2017/06/bit-300x150.jpg" alt="Công nghệ phần mềm"
+            style="width:100%;border-radius:10px;">
+          <figcaption>CÔNG NGHỆ PHẦN MỀM</figcaption>
+          <p><a href="http://bit.ueh.edu.vn/cong-nghe-phan-mem/" target="_blank" rel="noopener">Đi tới trang ngành
+              &raquo;</a></p>
+        </figure>
+        <figure>
+          <img src="https://bit.ueh.edu.vn/wp-content/uploads/2017/06/e-commerce-300x150.jpg"
+            alt="Ngành Thương mại điện tử" style="width:100%;border-radius:10px;">
+          <figcaption>NGÀNH THƯƠNG MẠI ĐIỆN TỬ</figcaption>
+          <p><a href="http://bit.ueh.edu.vn/chuyen-nganh-thuong-mai-dien-tu/" target="_blank" rel="noopener">Đi tới
+              trang ngành &raquo;</a></p>
+        </figure>
+        <figure>
+          <img src="https://bit.ueh.edu.vn/wp-content/uploads/2017/06/mis-300x150.jpg"
+            alt="Hệ Thống Thông Tin Kinh Doanh" style="width:100%;border-radius:10px;">
+          <figcaption>HỆ THỐNG THÔNG TIN KINH DOANH</figcaption>
+          <p><a href="http://bit.ueh.edu.vn/chuyen-nganh-he-thong-thong-tin-kinh-doanh/" target="_blank"
+              rel="noopener">Đi tới trang ngành &raquo;</a></p>
+        </figure>
+      </div>
+    </section>
+
+    <!-- 6) Liên kết nhảy trong trang -->
+    <nav class="card quick" aria-label="Liên kết nhanh">
+      <strong>6. Liên kết nhanh:</strong>
+      <a href="#cau3">Câu 3</a>
+      <a href="#cau4">Câu 4</a>
+      <a href="#cau5">Câu 5</a>
+      <a href="#top">Về đầu trang</a>
+    </nav>
+
+    <!-- 7) Bảng -->
+    <section class="card">
+      <h3>7. Bảng “Mạng nghệ thuật &amp; giải trí”</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Phim</th>
+            <th>Ngày chiếu</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Sherlock Holmes</td>
+            <td>Thứ bảy</td>
+          </tr>
+          <tr>
+            <td>Lovejoy</td>
+            <td>Thứ hai</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <footer>
+      &copy; UEH – Khoa Công Nghệ Thông Tin Kinh Doanh
+    </footer>
+  </div>
+
+  <a class="toplink" href="#top" title="Lên đầu trang">▲ Top</a>
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="vi">
+
+<head>
+  <meta charset="utf-8" />
+  <title>HTML5 Quiz – Validation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: system-ui, Segoe UI, Roboto, Arial, sans-serif;
+      background: #f8fafc;
+      margin: 0;
+      color: #111827
+    }
+
+    .wrap {
+      max-width: 720px;
+      margin: 24px auto;
+      background: #fff;
+      padding: 24px;
+      border: 1px solid #e5e7eb;
+      border-radius: 12px
+    }
+
+    h1 {
+      margin-top: 0
+    }
+
+    label {
+      display: block;
+      font-weight: 600;
+      margin: .75rem 0 .25rem
+    }
+
+    input,
+    textarea,
+    select {
+      width: 100%;
+      padding: .6rem .7rem;
+      border: 1px solid #cbd5e1;
+      border-radius: 8px
+    }
+
+    .row {
+      margin-bottom: 14px
+    }
+
+    button {
+      padding: .7rem 1rem;
+      border-radius: 10px;
+      border: 0;
+      background: #2563eb;
+      color: #fff;
+      font-weight: 700;
+      cursor: pointer
+    }
+
+    .hint {
+      font-size: .9rem;
+      color: #6b7280;
+      margin-top: .25rem
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <h1>HTML5 Quiz</h1>
+    <form action="#" method="post" novalidate>
+      <!-- Câu 1 -->
+      <div class="row">
+        <label for="favColor">1) Màu bạn yêu thích?</label>
+        <input id="favColor" name="favColor" type="color" required />
+        <div class="hint">Chỉ chấp nhận màu hợp lệ (bộ chọn màu của trình duyệt).</div>
+      </div>
+
+      <!-- Câu 2 -->
+      <div class="row">
+        <label for="age">2) Tuổi của bạn (≥ 20, số nguyên)?</label>
+        <input id="age" name="age" type="number" min="20" step="1" placeholder="Nhập số nguyên ≥ 20" required />
+      </div>
+
+      <!-- Câu 3 -->
+      <div class="row">
+        <label for="fullname">3) Họ và tên</label>
+        <input id="fullname" name="fullname" type="text" placeholder="VD: Nguyễn Văn A" required />
+      </div>
+
+      <!-- Câu 4 -->
+      <div class="row">
+        <label for="date">4) Ngày nộp bài</label>
+        <input id="date" name="date" type="date" required />
+      </div>
+
+      <!-- Câu 5 -->
+      <div class="row">
+        <label for="portfolio">5) Đường dẫn URL portfolio</label>
+        <input id="portfolio" name="portfolio" type="url" placeholder="https://..." required />
+        <div class="hint">Ví dụ: https://example.com</div>
+      </div>
+
+      <button type="submit">Gửi bài</button>
+    </form>
+  </div>
+</body>
+
+</html>
