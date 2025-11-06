@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animation</title>
+  <style>
+	div.at-container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 100%;
+	}
+	.at-item {
+		color: #3079ed; font-weight:bold; font-size:3em;
+		
+		animation-name: focus-in-contract;
+		animation-duration: 2.2s;
+		animation-timing-function: linear;
+		animation-delay: 0.2s;
+		animation-iteration-count: 2;
+		animation-direction: reverse;
+		animation-fill-mode: none;
+			
+		/* shorthand
+		animation: focus-in-contract 2.2s linear 0.2s 2 reverse none;*/
+	}
+	@keyframes focus-in-contract {
+			
+		0% {
+			letter-spacing:1em;
+			filter:blur(12px);
+			opacity:0;
+		}
+		100% {
+			filter:blur(0);
+			opacity:1;
+		}
+	}
+</style>
+</head>
+<body>
+  <div class="at-container">
+    <img class="at-item" width="200" src="https://bit.ueh.edu.vn/wp-content/uploads/2017/06/BIT_logo.png">
+  </div>
+</body>
+</html>

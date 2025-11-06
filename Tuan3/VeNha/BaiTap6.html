@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 6 – Portfolio</title>
+    <style>
+        /* Bài 6 – Giao diện Portfolio */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans‑serif;
+            background: #f4f7fb;
+        }
+        .portfolio {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .portfolio h2 {
+            text-align: center;
+            margin-bottom: 24px;
+            color: #003366;
+            font-size: 28px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        /* tabs */
+        .list-tab {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 30px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 16px;
+        }
+        .list-tab li {
+            display: inline-block;
+        }
+        .list-tab a {
+            display: block;
+            padding: 10px 20px;
+            background: #e6eef7;
+            color: #003366;
+            border-radius: 20px;
+            text-decoration: none;
+            font-size: 14px;
+            transition: background 0.3s, color 0.3s;
+        }
+        .list-tab a:hover {
+            background: #0066cc;
+            color: #fff;
+        }
+        /* gallery grid */
+        .gallery {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .gallery li {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        .gallery img {
+            width: 100%;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <section class="portfolio">
+        <h2>My Portfolio</h2>
+        <ul class="list-tab">
+            <li><a href="#">All</a></li>
+            <li><a href="#">Web App</a></li>
+            <li><a href="#">UI/UX</a></li>
+            <li><a href="#">Graphics Design</a></li>
+            <li><a href="#">Mobile App</a></li>
+            <li><a href="#">Branding</a></li>
+            <li><a href="#">Marketing</a></li>
+        </ul>
+        <ul class="gallery">
+            <!-- Thay các liên kết hình ảnh bên dưới bằng đường dẫn hình phù hợp -->
+            <li><a href="#"><img src="https://hocwebchuan.com/exercises/images/img_350x260.png" alt="Portfolio item"></a></li>
+            <li><a href="#"><img src="https://hocwebchuan.com/exercises/images/img_350x260.png" alt="Portfolio item"></a></li>
+            <li><a href="#"><img src="https://hocwebchuan.com/exercises/images/img_350x260.png" alt="Portfolio item"></a></li>
+            <li><a href="#"><img src="https://hocwebchuan.com/exercises/images/img_350x260.png" alt="Portfolio item"></a></li>
+            <li><a href="#"><img src="https://hocwebchuan.com/exercises/images/img_350x260.png" alt="Portfolio item"></a></li>
+            <li><a href="#"><img src="https://hocwebchuan.com/exercises/images/img_350x260.png" alt="Portfolio item"></a></li>
+            <li><a href="#"><img src="https://hocwebchuan.com/exercises/images/img_350x260.png" alt="Portfolio item"></a></li>
+            <li><a href="#"><img src="https://hocwebchuan.com/exercises/images/img_350x260.png" alt="Portfolio item"></a></li>
+            <li><a href="#"><img src="https://hocwebchuan.com/exercises/images/img_350x260.png" alt="Portfolio item"></a></li>
+        </ul>
+    </section>
+</body>
+</html>

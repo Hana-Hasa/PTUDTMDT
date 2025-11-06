@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 7 – Layout cơ bản</title>
+    <style>
+        /* Bài 7 – Định dạng layout header, nav, main, footer */
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            font-family: Arial, sans‑serif;
+        }
+        #wrapper {
+            max-width: 960px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-rows: 100px 50px 1fr 60px;
+            min-height: 100vh;
+            border: 1px solid #ccc;
+        }
+        header {
+            background: #004080;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+        }
+        nav {
+            background: #0066cc;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+        }
+        main {
+            padding: 20px;
+            background: #f5f7fa;
+        }
+        footer {
+            background: #004080;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <header>Header</header>
+        <nav>Navigation</nav>
+        <main>
+            <p>Nội dung chính được hiển thị ở đây.</p>
+        </main>
+        <footer>Footer</footer>
+    </div>
+</body>
+</html>
