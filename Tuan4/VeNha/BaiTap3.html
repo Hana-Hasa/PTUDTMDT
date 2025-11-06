@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bài 3 – animate.css áp dụng cho Bài 1</title>
+  <!-- animate.css CDN -->
+  <link rel="stylesheet" href="animate.css"/>
+  <link rel="stylesheet" href="noithat.css"/>
+  <style>
+    .khoa{
+      display:inline-block;padding:14px 22px;background:#00a651;color:#fff;
+      font-size:28px;border-radius:12px
+    }
+    /* kế thừa yêu cầu hover của Bài 1 */
+    .khoa:hover{background:#e53935;transform:matrix(1.4,-0.54,0.54,1.4,0,0);transition:all .6s ease}
+  </style>
+</head>
+<body>
+  <!-- animate.css: vào trang sẽ “bounceInDown”, hover sẽ “heartBeat” bằng JS nhỏ -->
+  <span id="khoa" class="khoa animate__animated animate__fadeInDown">Khoa CNTTKD</span>
+
+  <script>
+    const el = document.getElementById('khoa');
+    el.addEventListener('mouseenter', () => {
+      el.classList.remove('animate__heartBeat');
+      void el.offsetWidth;                // reset animation
+      el.classList.add('animate__animated','animate__heartBeat');
+    });
+  </script>
+</body>
+</html>

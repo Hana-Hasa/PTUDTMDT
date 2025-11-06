@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bài 1 – Hover chữ Khoa CNTTKD</title>
+  <link rel="stylesheet" href="noithat.css"/>
+  <style>
+    .wrap{text-align:center}
+    .title{margin:0 0 16px;font-weight:700}
+    .khoa{
+      display:inline-block;
+      padding:12px 20px;
+      background:#00a651;            /* xanh */
+      color:#fff;
+      font-size:20px;                  /* 20px -> 50px */
+      transform:matrix(1,0,0,1,0,0);   /* matrix chuẩn */
+      border-radius:10px;
+      transition:all .6s ease;
+    }
+    .khoa:hover{
+      background:#e53935;              /* đỏ */
+      font-size:50px;
+      transform:matrix(1.4,-0.54,0.54,1.4,0,0);
+      box-shadow:0 20px 40px rgba(0,0,0,.2);
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h2 class="title">Bài 1 – Hiệu ứng hover theo đề bài</h2>
+    <span class="khoa">Khoa CNTTKD</span>
+  </div>
+</body>
+</html>
