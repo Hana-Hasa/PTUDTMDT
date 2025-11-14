@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Clean Farm – Nông sản sạch</title>
+
+  <!-- Bootstrap 3.3.7 (theo hướng dẫn) -->
+  <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+
+  <!-- xZoom (zoom ảnh sản phẩm) -->
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/xZoom/0.3.3/xzoom.min.css"/>
+
+  <!-- Bootstrap Star Rating (thay glyphicon-star) -->
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-star-rating/4.0.2/css/star-rating.min.css"/>
+
+  <style>
+    body { background:#f7f8fb; }
+    .topbar{
+      background:#0a8f3a; color:#fff; padding:8px 0; font-weight:600;
+    }
+    .brand-logo{ height:28px; }
+
+    /* Badge giảm giá (trái trên) */
+    .badge-discount{
+      position:absolute; left:10px; top:10px;
+      background:#e53935; color:#fff; border-radius:4px;
+      padding:4px 6px; font-weight:700;
+    }
+    /* Nhãn New/Best Seller (phải trên) */
+    .label-top{
+      position:absolute; right:10px; top:10px;
+      border-radius:4px; padding:4px 6px; color:#fff; font-weight:700;
+    }
+    .label-new{ background:#1e88e5; }
+    .label-best{ background:#8e24aa; }
+
+    .thumbnail{ position:relative; overflow:hidden; }
+    .thumbnail .caption p{ min-height:42px; }
+
+    /* Add to cart hover */
+    .add-to-cart a{
+      position:absolute; right:12px; bottom:12px; font-size:22px; color:#0a8f3a;
+    }
+    .add-to-cart a:hover{ color:#066428; }
+
+    /* khối xzoom trong Modal */
+    .xzoom-container{ display:block; }
+    .xzoom-gallery{ margin-top:8px; }
+    .xzoom-thumbs img{ height:60px; margin-right:6px; }
+
+    /* Carousel placeholder */
+    .carousel .item img{ width:100%; }
+    .carousel-caption h3{ text-shadow:0 2px 8px rgba(0,0,0,.35); }
+
+    /* cột trái danh mục */
+    .categories h3{ margin-top:0; }
+  </style>
+</head>
+<body>
+
+  <!-- Topbar: thông tin sinh viên -->
+  <div class="topbar">
+    <div class="container">
+      MSSV: <strong>88214020018</strong> &nbsp;|&nbsp;
+      Họ tên: <strong>Trần Thị Ngọc Huyền</strong>
+    </div>
+  </div>
+
+  <!-- Navbar (mẫu theo file hướng dẫn Bootstrap) -->
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed"
+                data-toggle="collapse" data-target="#main-nav">
+          <span class="sr-only">Toggle</span>
+          <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+          <img src="./img/logo.jpg" alt="Clean Farm" class="brand-logo">
+        </a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="main-nav">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Trang chủ</a></li>
+          <li><a href="#products">Sản phẩm</a></li>
+          <li><a href="#about">Về Clean Farm</a></li>
+        </ul>
+
+        <!-- Search: ẩn ở mobile, hiện ở desktop (responsive utilities) -->
+        <form class="navbar-form navbar-left hidden-xs">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Tìm nông sản sạch…">
+          </div>
+          <button class="btn btn-default">Tìm</button>
+        </form>
+
+        <!-- Mobile search -->
+        <form class="visible-xs-inline-block" style="margin-top:10px">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Tìm nông sản sạch…">
+          </div>
+        </form>
+
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#"><span class="badge pull-right">3</span>
+            <i class="glyphicon glyphicon-shopping-cart"></i></a></li>
+          <li><a href="#"><i class="glyphicon glyphicon-user"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Slider (Carousel) -->
+  <div id="hero" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#hero" data-slide-to="0" class="active"></li>
+      <li data-target="#hero" data-slide-to="1"></li>
+      <li data-target="#hero" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <!-- TODO: replace with your banner -->
+        <img src="./img/hat-dieu-rang-muoi-vietnam-Banner.webp" alt="">
+        <div class="carousel-caption"><h3>Giao nhanh trong ngày</h3></div>
+      </div>
+      <div class="item">
+        <img src="./img/xoai_cat_hoa_loc_high.jpg" alt="">
+      </div>
+      <div class="item">
+        <img src="./img/banner_cai_kale.jpg" alt="">
+      </div>
+    </div>
+    <a class="left carousel-control" href="#hero" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Prev</span>
+    </a>
+    <a class="right carousel-control" href="#hero" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <div class="container" id="products" style="margin-top:28px">
+    <div class="row">
+      <!-- Cột trái: Categories -->
+      <div class="col-sm-4 col-md-3 categories">
+        <h3>Danh mục</h3>
+        <ul class="list-group">
+          <li class="list-group-item"><span class="badge">24</span> Rau củ</li>
+          <li class="list-group-item"><span class="badge">18</span> Trái cây</li>
+          <li class="list-group-item"><span class="badge">12</span> Hạt – Ngũ cốc</li>
+          <li class="list-group-item"><span class="badge">6</span> Hải sản sạch</li>
+        </ul>
+      </div>
+
+      <!-- Cột phải: Lưới sản phẩm -->
+      <div class="col-sm-8 col-md-9">
+        <div class="row">
+
+          <!-- PRODUCT 1 -->
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="./img/xoaicat2.jpg" alt="Xoài sạch">
+
+              <span class="badge-discount">-20%</span>
+              <span class="label-top label-new">NEW</span>
+
+              <div class="caption">
+                <h4 class="pull-right">120.000đ/kg</h4>
+                <h4><a href="#" data-toggle="modal" data-target="#modalProduct1">Xoài cát Hòa Lộc</a></h4>
+                <p>Xoài chín cây, đóng gói tại vườn, chuẩn VietGAP.</p>
+
+                <!-- Star rating -->
+                <input value="4" type="text" class="rating" data-size="xs" title="">
+
+                <!-- Progress tồn kho -->
+                <div style="margin-top:8px">
+                  <div class="progress" style="margin-bottom:6px">
+                    <div class="progress-bar progress-bar-warning" style="width: 25%">Còn 25%</div>
+                  </div>
+                  <small class="text-warning">Sắp bán hết</small>
+                </div>
+              </div>
+
+              <div class="add-to-cart">
+                <a href="#" class="glyphicon glyphicon-plus-sign" title="Thêm vào giỏ"></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- PRODUCT 2 -->
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="./img/cai_kale_huu_co.jpg" alt="Rau hữu cơ">
+              <span class="badge-discount">-15%</span>
+              <span class="label-top label-best">Best Seller</span>
+              <div class="caption">
+                <h4 class="pull-right">38.000đ/bó</h4>
+                <h4><a href="#" data-toggle="modal" data-target="#modalProduct2">Rau cải Kale hữu cơ</a></h4>
+                <p>Trồng theo tiêu chuẩn hữu cơ, thu hoạch mỗi sáng.</p>
+                <input value="5" type="text" class="rating" data-size="xs" title="">
+                <div style="margin-top:8px">
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-success" style="width: 70%">70%</div>
+                  </div>
+                  <small class="text-success">Còn nhiều</small>
+                </div>
+              </div>
+              <div class="add-to-cart">
+                <a href="#" class="glyphicon glyphicon-plus-sign" title="Thêm vào giỏ"></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- PRODUCT 3 -->
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="./img/rang-bo-2.jpg" alt="Hạt điều">
+              <span class="badge-discount">-10%</span>
+              <span class="label-top label-new">NEW</span>
+              <div class="caption">
+                <h4 class="pull-right">145.000đ/500g</h4>
+                <h4><a href="#" data-toggle="modal" data-target="#modalProduct3">Hạt điều rang bơ</a></h4>
+                <p>Hạt điều Bình Phước tuyển chọn, vị bùi béo.</p>
+                <input value="4.5" type="text" class="rating" data-size="xs" title="">
+                <div style="margin-top:8px">
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-info" style="width: 50%">50%</div>
+                  </div>
+                  <small class="text-info">Đang bán chạy</small>
+                </div>
+              </div>
+              <div class="add-to-cart">
+                <a href="#" class="glyphicon glyphicon-plus-sign" title="Thêm vào giỏ"></a>
+              </div>
+            </div>
+          </div>
+
+        </div><!-- /.row -->
+      </div><!-- /.col right -->
+    </div><!-- /.row -->
+  </div><!-- /.container -->
+
+  <!-- MODAL Product 1 – có xZoom -->
+  <div class="modal fade" id="modalProduct1">
+    <div class="modal-dialog modal-lg"><div class="modal-content">
+      <div class="modal-header">
+        <button class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Xoài cát Hòa Lộc</h4>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-sm-6">
+            <!-- xZoom big image -->
+            <img class="xzoom img-responsive" id="xzoom-default"
+                 src="./img/xoaicat2.jpg"
+                 xoriginal="./img/xoaicat2.jpg"/>
+            <div class="xzoom-thumbs" style="margin-top:8px">
+              <a href="./img/xoaicat2.jpg">
+                <img class="xzoom-gallery img-thumbnail" width="60"
+                     src="./img/xoaicat2.jpg"  xpreview="./img/xoaicat2.jpg">
+              </a>
+              <a href="./img/xoaicat2.jpg">
+                <img class="xzoom-gallery img-thumbnail" width="60"
+                     src="./img/xoaicat2.jpg"  xpreview="./img/xoaicat2.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <h4 class="pull-right text-danger">120.000đ/kg</h4>
+            <h4>Chi tiết sản phẩm</h4>
+            <p>Xoài chín cây, đóng gói tại vườn.</p>
+            <p><strong>Đánh giá:</strong> <input value="4" type="text" class="rating" data-size="sm"></p>
+            <button class="btn btn-success">Thêm vào giỏ</button>
+          </div>
+        </div>
+      </div>
+    </div></div>
+  </div>
+
+  <!-- MODAL Product 2 -->
+  <div class="modal fade" id="modalProduct2">
+    <div class="modal-dialog"><div class="modal-content">
+      <div class="modal-header"><button class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Rau cải Kale hữu cơ</h4></div>
+      <div class="modal-body">
+        <p>Rau hữu cơ thu hoạch sáng sớm.</p>
+      </div>
+    </div></div>
+  </div>
+
+  <!-- MODAL Product 3 -->
+  <div class="modal fade" id="modalProduct3">
+    <div class="modal-dialog"><div class="modal-content">
+      <div class="modal-header"><button class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Hạt điều rang bơ</h4></div>
+      <div class="modal-body">
+        <p>Hạt điều rang bơ Bình Phước.</p>
+      </div>
+    </div></div>
+  </div>
+
+  <footer id="about" class="container" style="margin:40px auto 60px">
+    <hr>
+    <p><strong>Clean Farm</strong> – Nông sản sạch, giao nhanh trong ngày.</p>
+  </footer>
+
+  <!-- jQuery & Bootstrap JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- xZoom -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xZoom/0.3.3/xzoom.min.js"></script>
+
+  <!-- Bootstrap Star Rating -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-star-rating/4.0.2/js/star-rating.min.js"></script>
+
+  <script>
+    // Khởi tạo xZoom trong modal Product 1
+    $('#modalProduct1').on('shown.bs.modal', function() {
+      $('.xzoom, .xzoom-gallery').xzoom({
+        tint: '#333',
+        Xoffset: 15
+      });
+    });
+
+    // Khởi tạo star rating
+    $('.rating').rating({showClear:false, showCaption:false});
+  </script>
+</body>
+</html>
