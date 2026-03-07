@@ -41,12 +41,15 @@ switch (phancap){
         intel += 10;
         break;   
 }
-document.getElementsByClassName("capnhat")[0].innnerHTML = `<br>Bạn đã chọn phân cấp: ${phancap} 
-<br>"Chỉ số strength của bạn là: ${strength} 
-<br>"Chỉ số agility của bạn là: ${agility} 
-<br>"Chỉ số intel của bạn là: ${intel}`;
-document.write(`<br>Bạn đã chọn phân cấp: ${phancap}`);
-document.write(`<br>"Chỉ số strength của bạn là: ${strength}`);
-document.write(`<br>"Chỉ số agility của bạn là: ${agility}`);
-document.write(`<br>"Chỉ số intel của bạn là: ${intel}`);   
+document.addEventListener(`DOMContentLoaded`, function(){
+    document.getElementsByClassName("capnhat")[0].innnerHTML = `
+    <br>Bạn đã chọn phân cấp: ${phancap} 
+    <br>"Chỉ số strength của bạn là: ${strength} 
+    <br>"Chỉ số intel của bạn là: ${intel}`;
+});
+
+//document.write(`<br>Bạn đã chọn phân cấp: ${phancap}`);
+//document.write(`<br>"Chỉ số strength của bạn là: ${strength}`);
+//document.write(`<br>"Chỉ số agility của bạn là: ${agility}`);
+//document.write(`<br>"Chỉ số intel của bạn là: ${intel}`);   
 
