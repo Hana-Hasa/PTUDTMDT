@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poster Chuỗi Cung Ứng Tiệm In Hạnh</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #2563eb;
+            --secondary: #f59e0b;
+            --accent: #ef4444;
+            --bg: #f8fafc;
+            --card-bg: #ffffff;
+            --text: #1e293b;
+            --text-light: #64748b;
+            --border: #e2e8f0;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
+
+        body {
+            background-color: #cbd5e1;
+            display: flex;
+            justify-content: center;
+            padding: 40px 0;
+        }
+
+        .poster {
+            width: 210mm;
+            height: 297mm;
+            background-color: var(--bg);
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            padding: 20mm;
+            color: var(--text);
+        }
+
+        /* Decorative Background */
+        .poster::before {
+            content: '';
+            position: absolute;
+            top: -10%;
+            right: -10%;
+            width: 50%;
+            height: 30%;
+            background: radial-gradient(circle, rgba(37, 99, 235, 0.1) 0%, transparent 70%);
+            z-index: 0;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 12mm;
+            z-index: 1;
+        }
+
+        h1 {
+            font-size: 32pt;
+            font-weight: 800;
+            color: var(--primary);
+            text-transform: uppercase;
+            letter-spacing: -0.02em;
+            margin-bottom: 4mm;
+        }
+
+        .subtitle {
+            font-size: 14pt;
+            color: var(--text-light);
+            font-weight: 600;
+        }
+
+        .main-flow {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 10mm;
+            z-index: 1;
+        }
+
+        .section {
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 6mm;
+            border: 1px solid var(--border);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 3mm;
+            margin-bottom: 4mm;
+        }
+
+        .section-header .icon {
+            width: 10mm;
+            height: 10mm;
+            background: var(--primary);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 14pt;
+        }
+
+        .section-header h2 {
+            font-size: 18pt;
+            font-weight: 700;
+            color: var(--primary);
+        }
+
+        .content-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 6mm;
+        }
+
+        .item {
+            display: flex;
+            flex-direction: column;
+            gap: 2mm;
+        }
+
+        .item h3 {
+            font-size: 12pt;
+            font-weight: 700;
+            color: var(--text);
+        }
+
+        .item p {
+            font-size: 10pt;
+            color: var(--text-light);
+            line-height: 1.4;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 1mm 3mm;
+            border-radius: 20px;
+            font-size: 9pt;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-top: 2mm;
+        }
+
+        .badge-blue { background: #dbeafe; color: #1e40af; }
+        .badge-orange { background: #fef3c7; color: #92400e; }
+        .badge-red { background: #fee2e2; color: #991b1b; }
+
+        /* Flow Arrows */
+        .arrow-down {
+            align-self: center;
+            width: 0;
+            height: 0;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-top: 15px solid var(--primary);
+            margin: 2mm 0;
+        }
+
+        /* Bottom Grid for Secondary Info */
+        .secondary-info {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 6mm;
+            margin-top: 10mm;
+            z-index: 1;
+        }
+
+        .info-box {
+            background: #f1f5f9;
+            border-radius: 12px;
+            padding: 4mm;
+            border-left: 4px solid var(--secondary);
+        }
+
+        .info-box h3 {
+            font-size: 11pt;
+            margin-bottom: 2mm;
+            color: var(--text);
+        }
+
+        .info-box ul {
+            list-style: none;
+            font-size: 9pt;
+            color: var(--text-light);
+        }
+
+        .info-box li {
+            margin-bottom: 1mm;
+            display: flex;
+            align-items: center;
+            gap: 1.5mm;
+        }
+
+        .info-box li::before {
+            content: '•';
+            color: var(--secondary);
+            font-weight: bold;
+        }
+
+        footer {
+            margin-top: auto;
+            text-align: center;
+            font-size: 9pt;
+            color: var(--text-light);
+            padding-top: 10mm;
+            z-index: 1;
+        }
+
+        /* Acecook-style Floating Badges */
+        .floating-badge {
+            position: absolute;
+            background: white;
+            padding: 3mm 5mm;
+            border-radius: 50px;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            border: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            gap: 2mm;
+            font-size: 10pt;
+            font-weight: 600;
+        }
+
+        .label-red { border-left: 4px solid var(--accent); }
+        .label-green { border-left: 4px solid #10b981; }
+
+    </style>
+</head>
+<body>
+    <div class="poster">
+        <header>
+            <h1>HÀNH PRINTING</h1>
+            <div class="subtitle">SƠ ĐỒ CHUỖI CUNG ỨNG LOGISTICS</div>
+        </header>
+
+        <main class="main-flow">
+            <!-- INPUT SECTION -->
+            <section class="section">
+                <div class="section-header">
+                    <div class="icon">📦</div>
+                    <h2>ĐẦU VÀO (INPUT)</h2>
+                </div>
+                <div class="content-grid">
+                    <div class="item">
+                        <h3>Nhà Cung Cấp Mực</h3>
+                        <p>Nguồn cố định hàng tháng. Tần suất: 20-50 lần/tháng.</p>
+                        <span class="badge badge-blue">Nguyên liệu chính</span>
+                    </div>
+                    <div class="item">
+                        <h3>Nhà Cung Cấp Giấy</h3>
+                        <p>Nguồn cố định. Đa dạng khổ A0-A4. 400-500 gram/tháng.</p>
+                        <span class="badge badge-blue">Nguyên liệu chính</span>
+                    </div>
+                </div>
+            </section>
+
+            <div class="arrow-down"></div>
+
+            <!-- PROCESS SECTION -->
+            <section class="section">
+                <div class="section-header">
+                    <div class="icon">⚙️</div>
+                    <h2>QUY TRÌNH (PROCESS)</h2>
+                </div>
+                <div class="content-grid">
+                    <div class="item">
+                        <h3>1. Tiếp Nhận</h3>
+                        <p>Qua Zalo, Email hoặc nhận tài liệu trực tiếp.</p>
+                    </div>
+                    <div class="item">
+                        <h3>2. Xử Lý & In</h3>
+                        <p>Chỉnh màu, Scan, in ấn bằng máy Toshiba hiện đại.</p>
+                    </div>
+                    <div class="item">
+                        <h3>3. Thành Phẩm</h3>
+                        <p>Kiểm tra chất lượng & Đóng gói sản phẩm.</p>
+                    </div>
+                    <div class="item">
+                        <h3>4. Bảo Trì</h3>
+                        <p>Bảo trì máy móc định kỳ 1 tháng/lần.</p>
+                        <span class="badge badge-orange">Quy trình phụ trợ</span>
+                    </div>
+                </div>
+            </section>
+
+            <div class="arrow-down"></div>
+
+            <!-- OUTPUT SECTION -->
+            <section class="section" style="border-bottom: 4px solid #10b981;">
+                <div class="section-header">
+                    <div class="icon">🚚</div>
+                    <h2>ĐẦU RA (OUTPUT)</h2>
+                </div>
+                <div class="content-grid">
+                    <div class="item">
+                        <h3>Đối Tượng Khách Hàng</h3>
+                        <p>80% Sinh viên UEH, giảng viên & học sinh.</p>
+                    </div>
+                    <div class="item">
+                        <h3>Phương Thức Phân Phối</h3>
+                        <p>Nhận hàng nhanh tại tiệm (Cơ sở B2). Tốc độ: "Nhanh - Gọn".</p>
+                        <span class="badge badge-blue">Lợi thế vị trí</span>
+                    </div>
+                </div>
+            </section>
+
+            <div class="secondary-info">
+                <div class="info-box">
+                    <h3>🛡️ Quản Trị Rủi Ro</h3>
+                    <ul>
+                        <li>Hệ thống 3 cơ sở (Bán kính 500m)</li>
+                        <li>Linh động xử lý khi mất điện</li>
+                        <li>Nhà cung cấp báo trước lịch giao</li>
+                    </ul>
+                </div>
+                <div class="info-box" style="border-left-color: var(--accent);">
+                    <h3>🔄 Logistics Ngược</h3>
+                    <ul>
+                        <li>Lỗi kỹ thuật: Tiệm chịu trách nhiệm</li>
+                        <li>Lỗi file khách: Khách chịu trách nhiệm</li>
+                        <li>Cam kết uy tín & nhanh chóng</li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+
+        <div style="position: absolute; bottom: 80mm; left: 10mm;" class="floating-badge label-red">
+            Dòng Thông Tin: Zalo / Email / Trực tiếp
+        </div>
+        <div style="position: absolute; bottom: 80mm; right: 10mm;" class="floating-badge label-green">
+            Kế Hoạch: Nhập hàng 4 lần/tháng
+        </div>
+
+        <footer>
+            <p>Phân tích Supply Chain - Nhóm Sinh Viên UEH - Tiệm Photo Hạnh (Kế bên B2)</p>
+        </footer>
+    </div>
+</body>
+</html>
