@@ -246,26 +246,16 @@ Với tư cách là sinh viên thực tập, em xác định kỳ thực tập t
 ## 3.1 Hội nhập văn hoá doanh nghiệp và Nghiên cứu kiến thức nền tảng
 
 ### 3.1.1 Mục tiêu công việc
-
-Mục tiêu của giai đoạn này là giúp sinh viên nắm vững văn hóa làm việc tại LHD TECH, hiểu rõ quy định của doanh nghiệp và bước đầu tiếp cận lĩnh vực tài chính cá nhân – hưu trí để chuẩn bị cho việc phân tích dự án.
+Mục tiêu hàng đầu của giai đoạn này là giúp sinh viên nhanh chóng hòa nhập với môi trường làm việc chuyên nghiệp tại LHD TECH, nắm vững các quy định nội bộ và văn hóa "AI-First" của doanh nghiệp. Đồng thời, sinh viên bắt đầu tiếp cận và làm quen với các công cụ công nghệ hiện đại phục vụ cho dự án như GitHub và Visual Studio Code, cũng như nghiên cứu sâu về kiến thức nền tảng trong lĩnh vực tài chính cá nhân và hoạch định hưu trí. Đây là bước chuẩn bị then chốt để xây dựng nền tảng tư duy phân tích nghiệp vụ (BA) cho các giai đoạn triển khai kế tiếp của dự án Kim Hương Finance.
 
 ### 3.1.2 Đầu vào công việc
-
-- Tài liệu đào tạo nội bộ và nội quy công ty.
-- Đề tài thực tập from người hướng dẫn (Mentor).
-- Các nguồn tài liệu về lạm phát, lãi suất kép và mục tiêu hưu trí trên internet.
+Các tài liệu đầu vào cho giai đoạn này bao gồm hệ thống nội quy, quy trình làm việc Agile của công ty và các tài liệu đào tạo nội bộ. Mentor trực tiếp bàn giao đề tài thực tập cùng các yêu cầu sơ bộ của khách hàng về website Blog tài chính. Ngoài ra, đầu vào còn bao gồm các nguồn dữ liệu tin cậy về kinh tế học như tỷ lệ lạm phát, các công thức tính lãi suất kép và các báo cáo nghiên cứu về nhu cầu chi tiêu của người cao tuổi tại Việt Nam được khai thác từ các nguồn thông tin chính thống trên internet.
 
 ### 3.1.3 Chi tiết
-
-- Tìm hiểu về văn hóa "AI-First" của công ty và cách thức vận hành dự án theo mô hình Agile.
-- Nghiên cứu các chỉ số tài chính vĩ mô ảnh hưởng đến tích lũy hưu trí như tỷ lệ lạm phát mục tiêu, lãi suất tiền gửi và nhu cầu chi tiêu của người Việt sau 60 tuổi.
-- Khảo sát các công cụ tính toán tài chính của các tổ chức quốc tế như Vanguard, Fidelity để rút ra ưu nhược điểm.
+Trong những tuần đầu tiên, sinh viên tập trung tìm hiểu văn hóa doanh nghiệp và quy trình phối hợp dự án thông qua hệ thống quản lý mã nguồn GitHub và trình soạn thảo VS Code. Một điểm đặc biệt trong giai đoạn này là sinh viên được tiếp cận và học cách cộng tác hiệu quả với trợ lý AI Antigravity để tối ưu hóa việc phân tích thông tin và soạn thảo các tài liệu đặc tả ban đầu. Về mặt kiến thức chuyên môn, sinh viên dành nhiều thời gian nghiên cứu các biến số tài chính ảnh hưởng đến lộ trình tích lũy như tỷ lệ lạm phát mục tiêu, lãi suất thực gửi và nhu cầu tích lũy cho tuổi già. Việc khảo sát các công cụ tính toán hưu trí của các tổ chức tài chính hàng đầu thế giới cũng được thực hiện để làm tiền đề cho việc thiết kế bộ tính toán hưu trí 7 bước sau này.
 
 ### 3.1.4 Cách thực hiện
-
-- Tham gia các buổi họp định hướng (Orientation) cùng Mentor và các thành viên trong team.
-- Sử dụng các công cụ tìm kiếm và phân tích đối thủ (Benchmarking) để tổng hợp báo cáo nghiên cứu thị trường.
-- Thảo luận trực tiếp with Mentor để xác định chân dung khách hàng mục tiêu của dự án.
+Sinh viên thực hiện công việc thông qua các buổi họp định hướng (Orientation) và trao đổi trực tiếp cùng Mentor để nắm bắt quy trình vận hành dự án. Việc làm quen với các công cụ kỹ thuật được tiến hành bằng cách thực hành trực tiếp trên VS Code và GitHub dưới sự hướng dẫn của Mentor và sự hỗ trợ đắc lực từ Antigravity trong việc giải đáp các thắc mắc chuyên môn. Để nghiên cứu kiến thức hưu trí, sinh viên áp dụng phương pháp phân tích đối thủ (Benchmarking) để tổng hợp các báo cáo nghiên cứu thị trường. Kết thúc giai đoạn này, sinh viên tiến hành thảo luận định kỳ với Mentor để xác định chân dung khách hàng mục tiêu và các tham số tài chính cốt lõi sẽ đưa vào mô hình hoạch định hưu trí.
 
 ## 3.2 Phân tích yêu cầu và Xác định tính năng hệ thống
 
