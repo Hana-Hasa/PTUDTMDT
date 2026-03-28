@@ -430,45 +430,30 @@ Em thực hiện việc soạn thảo tài liệu PRD theo cấu trúc chuẩn c
 ## 3.7 Kiểm thử chấp nhận người dùng (UAT) và Quản lý lỗi
 
 ### 3.7.1 Mục tiêu công việc
-
-Xác nhận sản phẩm cuối cùng after lập trình đáp ứng đúng và đủ các yêu cầu đã đạt ra trong PRD.
+Mục tiêu của em trong giai đoạn này là xác nhận sản phẩm website thực tế sau khi lập trình hoàn toàn khớp với những gì em và các bên liên quan đã thống nhất trong tài liệu đặc tả PRD. Việc kiểm thử kỹ lưỡng (UAT) giúp em đảm bảo dự án đạt tiêu chuẩn chất lượng cao nhất, loại bỏ các lỗi tiềm ẩn và mang lại trải nghiệm mượt mà nhất cho người dùng khi thực hiện các lộ trình hoạch định tài chính phức tạp.
 
 ### 3.7.2 Đầu vào của công việc
-
-- Sản phẩm website đã được đội Dev triển khai (môi trường Staging/Demo).
-- Tài liệu PRD và bộ Test case ở mục 3.5.
+Để thực hiện kiểm thử, em đã sử dụng phiên bản website ổn định trên môi trường Staging do đội Dev triển khai. Các tài liệu PRD, bộ Test case chi tiết được em chuẩn bị từ mục 3.5 chính là "thước đo" để em đối soát từng chức năng. Bên cạnh đó, các phản hồi nhanh từ khách hàng về giao diện cũng được em tổng hợp để đưa vào quy trình kiểm thử trải nghiệm (UX).
 
 ### 3.7.3 Chi tiết
-
-- Thực hiện kiểm thử đầu cuối (End-to-end testing) on luồng 7 bước hoàn chỉnh.
-- Ghi nhận các lỗi về hiển thị (UI), lỗi trải nghiệm (UX) và lỗi sai lệch công thức tính toán.
+Trong phần này, em đã thực hiện kiểm thử đầu cuối (End-to-end testing) trên toàn bộ luồng nghiệp vụ 7 bước của bộ máy tính hưu trí. Em dành thời gian để nhập liệu các kịch bản thực tế khác nhau, từ đó ghi nhận chính xác các lỗi về hiển thị (UI), các điểm gây khó khăn trong trải nghiệm (UX) và đặc biệt là rà soát kỹ các sai lệch nhỏ nhất về công thức tính toán so với file Excel đối soát. Mọi lỗi phát sinh đều được em mô tả chi tiết kèm theo các bước tái hiện để lập trình viên có thể sửa lỗi nhanh nhất.
 
 ### 3.7.4 Cách thực hiện
+Em đã áp dụng mô hình làm việc **Agile** một cách nghiêm túc để phối hợp chặt chẽ cùng đội ngũ lập trình. Hàng ngày, em đều tham gia các buổi họp **Daily Standup 15 phút** để cập nhật tiến độ công việc, chia sẻ những khó khăn gặp phải và nắm bắt lộ trình khắc phục lỗi của đội ngũ phát triển. Em cũng tích cực đóng góp ý kiến trong các buổi **Sprint Planning** để ưu tiên xử lý các tính năng quan trọng và tham gia **Sprint Review** để cùng khách hàng kiểm tra lại sản phẩm sau mỗi giai đoạn phát triển. Quy trình này giúp em và đội Dev luôn cùng một mục tiêu và xử lý các thay đổi một cách linh hoạt, hiệu quả nhất.
 
-- Trực tiếp thao tác trên website như một người dùng cuối.
-- Sử dụng bảng theo dõi lỗi (Bug log) to báo cáo for đội Dev và theo dõi tiến độ khắc phục lỗi for đến khi sản phẩm đạt trạng thái ổn định nhất.
-
-## 3.8 Xây dựng tài liệu hướng dẫn và Bàn giao dự án
+## 3.8 Tổng kết và Chuẩn bị bàn giao dự án
 
 ### 3.8.1 Mục tiêu công việc
-
-Hướng dẫn người dùng cuối cách sử dụng công cụ hiệu quả và hoàn thành hồ sơ thực tập at doanh nghiệp.
+Dù dự án website Kim Hương Finance vẫn đang trong giai đoạn tiếp tục hoàn thiện các bước cuối cùng, nhưng mục tiêu của em là chủ động chuẩn bị đầy đủ hệ thống tài sản số (Artifacts) để việc bàn giao sau này diễn ra thuận lợi. Em muốn đảm bảo rằng khi dự án kết thúc, khách hàng và đội ngũ vận hành sẽ có toàn bộ kiến thức và công cụ cần thiết để duy trì sản phẩm một cách bền vững.
 
 ### 3.8.2 Đầu vào của công việc
-
-- Website hoàn thiện đã sửa hết lỗi nghiêm trọng.
-- Các yêu cầu về báo cáo thực tập from phía nhà trường.
+Đầu vào của em là toàn bộ các tài liệu PRD, Test case, các bản thiết kế Figma đã được chốt và mã nguồn dự án hiện có. Ngoài ra, em cũng căn cứ vào các phản hồi cuối cùng của khách hàng để bổ sung thông tin vào các tài liệu hướng dẫn bàn giao.
 
 ### 3.8.3 Chi tiết
-
-- Soạn thảo tài liệu User Guide giải thích ý nghĩa các tham số tài chính for người dùng.
-- Hoàn thiện nội dung các chương trong báo cáo thực tập và chuẩn bị hồ sơ bàn giao (Source code, PRD, Figma).
+Trong giai đoạn này, em tập trung vào việc chuẩn bị và hệ thống hóa các tài liệu đặc tả (PRD), các kịch bản kiểm thử mẫu và bản hướng dẫn sử dụng (User Guide) dành cho cả người dùng cuối và quản trị viên Admin. Em cũng tổng hợp lại các lưu ý quan trọng về logic tính toán để phục vụ cho việc bàn giao kiến thức (Knowledge Transfer) sau này, giúp đơn vị tiếp nhận nắm bắt nhanh chóng "linh hồn" của bộ máy tính toán hưu trí.
 
 ### 3.8.4 Cách thực hiện
-
-- Chụp ảnh màn hình giao diện thực tế for minh họa for tài liệu hướng dẫn.
-- Gửi báo cáo for Mentor at công ty review, nhận xét và xin dấu xác nhận thực tập. Bàn giao lại toàn bộ tài sản số for đơn vị tiếp nhận.
-
+Em tiến hành tổ chức và sắp xếp toàn bộ tài liệu dự án lên hệ thống lưu trữ chung của công ty một cách chuyên nghiệp và dễ truy cập. Em cũng phối hợp cùng Mentor để rà soát lại độ chính xác của các bản đặc tả cuối cùng so với thực tế sản phẩm đã thành hình. Bằng việc chuẩn bị kỹ lưỡng từ sớm, em tin rằng dự án sẽ luôn ở trạng thái sẵn sàng để bàn giao cho khách hàng ngay khi các chức năng cuối cùng được đội Dev hoàn tất.
 # CHƯƠNG 4: KẾT LUẬN
 
 ## 4.1 Kết quả đạt được sau thực tập
