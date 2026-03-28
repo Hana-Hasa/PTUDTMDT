@@ -415,25 +415,18 @@ Em đã tiến hành xây dựng một bảng tính Excel "đối soát" độc 
 ## 3.6 Xây dựng tài liệu đặc tả yêu cầu phần mềm (PRD)
 
 ### 3.6.1 Mục tiêu công việc
-
-Hệ thống hóa toàn bộ yêu cầu nghiệp vụ và kỹ thuật thành một tài liệu chuẩn để đội ngũ lập trình có thể thực hiện dự án một cách chính xác.
+Khi tất cả các mảnh ghép về logic tài chính và giao diện đã hoàn thiện, em nhận thấy việc hệ thống hóa chúng thành một tài liệu duy nhất là vô cùng cần thiết. Mục tiêu của em trong giai đoạn này là xây dựng Tài liệu đặc tả yêu cầu phần mềm (PRD) đóng vai trò như một "ngôn ngữ chung" cho cả đội ngũ thiết kế, lập trình và khách hàng. Em muốn đảm bảo rằng mọi thành viên trong dự án đều có thể hiểu đúng và đủ các tính năng hiện có, từ đó tránh được những sai sót không đáng có trong quá trình triển khai thực tế.
 
 ### 3.6.2 Đầu vào của công việc
-
-- Các sơ đồ nghiệp vụ và bản thiết kế Figma đã được duyệt.
-- Các yêu cầu phi chức năng from phía công ty.
+Để xây dựng PRD, em đã tổng hợp toàn bộ các kết quả từ những giai đoạn trước đó. Đầu vào của em bao gồm các bản vẽ Mockup chi tiết trên Figma, các sơ đồ Use Case và luồng BPMN đã được Mentor phê duyệt. Đặc biệt, các yêu cầu phi chức năng về hiệu năng hệ thống, bảo mật thông tin gia thế của người dùng và độ chính xác của các con số hưu trí cũng được em đưa vào làm tiêu chuẩn kỹ thuật cốt lõi cho tài liệu này.
 
 ### 3.6.3 Chi tiết
+Trong nội dung PRD, em đã tập trung làm rõ phần tổng quan dự án và phạm vi công việc để định hướng mục tiêu chung cho toàn đội ngũ. Em đã đặc tả chi tiết từng chức năng thông qua các User Story cụ thể, giúp lập trình viên hiểu rõ bối cảnh và mong đợi của người dùng khi sử dụng từng tính năng trên website. Bên cạnh đó, các yêu cầu khắt khe về mặt kỹ thuật như thời gian phản hồi của hệ thống khi thực hiện các phép tính phức tạp (Performance) và tính toàn vẹn của dữ liệu cá nhân (Security) cũng được em mô tả một cách kỹ lưỡng.
 
-- Viết phần tổng quan dự án, phạm vi công việc.
-- Đặc tả chi tiết từng chức năng (User Story), yêu cầu về hiệu năng, bảo mật (Security) và độ chính xác của số liệu (Accuracy).
-- Bổ sung các trường hợp biên (Edge cases) – ví dụ: cách hệ thống xử lý khi người dùng nhập tuổi nghỉ hưu nhỏ hơn tuổi hiện tại.
+Một điểm đặc biệt mà em đã chú trọng bổ sung vào PRD chính là việc mô tả các trường hợp biên (Edge cases). Em đã dành nhiều thời gian để phân tích và đưa ra cách thức xử lý khi người dùng nhập sai logic, ví dụ như khi tuổi nghỉ hưu mong muốn lại nhỏ hơn tuổi hiện tại, hoặc các trường hợp nhập dữ liệu khuyết thiếu. Việc em lường trước được các tình huống này ngay từ giai đoạn đặc tả đã giúp giảm thiểu tối đa các lỗi phát sinh trong quá trình vận hành hệ thống sau này.
 
 ### 3.6.4 Cách thực hiện
-
-- Soạn thảo tài liệu PRD (Product Requirements Document) theo mẫu của LHD TECH.
-- Phối hợp cùng PM để rà soát toàn bộ tài liệu, đảm bảo không có sự mâu thuẫn giữa yêu cầu nghiệp vụ và khả năng kỹ thuật.
-
+Em thực hiện việc soạn thảo tài liệu PRD theo cấu trúc chuẩn của dự án, đảm bảo tính logic và dễ tra cứu cho các bên liên quan. Trong quá trình viết, em thường xuyên trao đổi và tham vấn ý kiến từ Project Manager (PM) cũng như các anh chị lập trình viên để đảm bảo các yêu cầu mình đưa ra là khả thi về mặt kỹ thuật. Sau khi hoàn thành bản thảo đầu tiên, em đã tổ chức một buổi trình bày và rà soát (Review) cùng với Mentor để chỉnh sửa các chi tiết chưa rõ ràng. Cuối cùng, bản PRD hoàn chỉnh đã được em chính thức bàn giao cho đội ngũ phát triển, đánh dấu việc kết thúc giai đoạn đặc tả và sẵn sàng cho việc lập trình sản phẩm thực tế.
 ## 3.7 Kiểm thử chấp nhận người dùng (UAT) và Quản lý lỗi
 
 ### 3.7.1 Mục tiêu công việc
