@@ -10,7 +10,7 @@
 
 ![](media/image4.png){width="8.55in" height="11.025in"}
 **BÁO CÁO HỌC KÌ DOANH NGHIỆP
-THỰC TẬP SINH BUSINESS ANALYST -- HOẠCH ĐỊNH TÀI CHÍNH & FINTECH**
+THỰC TẬP SINH BUSINESS ANALYST -- BLOG CÁ NHÂN & FINTECH**
 
 ---
 
@@ -27,7 +27,7 @@ THỰC TẬP SINH BUSINESS ANALYST -- HOẠCH ĐỊNH TÀI CHÍNH & FINTECH**
 Người hướng dẫn tại doanh nghiệp:   **Nguyễn Hữu Đạt**
 -------------------------------------------------------------
 
-**TP. Hồ Chí Minh, Ngày \-- tháng 03 năm 2026**
+**TP. Hồ Chí Minh, Ngày -- tháng 03 năm 2026**
 
 # LỜI CẢM ƠN
 
@@ -35,7 +35,7 @@ Trong suốt quá trình học tập và rèn luyện tại Trường Kinh tế 
 
 Trước hết, em xin gửi lời cảm ơn chân thành và sâu sắc nhất đến **Th.S Hồ Thị Thanh Tuyến** – giảng viên hướng dẫn trực tiếp của em. Cô đã luôn tận tâm định hướng, góp ý và hỗ trợ em từ những bước đầu tiên trong việc xác định đề tài cho đến khi hoàn thiện báo cáo này. Những chia sẻ, nhận xét chuyên môn quý báu của cô đã giúp em hiểu rõ hơn về phương pháp nghiên cứu và cách tiếp cận bài bản trong lĩnh vực phân tích nghiệp vụ.
 
-Em cũng xin trân trọng cảm ơn **Công ty Cổ phần Dịch vụ Công nghệ LHD** – đặc biệt là **anh Nguyễn Hữu Đạt** (CEO) và toàn thể đội ngũ tại công ty – đã tạo cơ hội quý báu để em được tham gia thực tập và đóng góp vào dự án thiết kế website và công cụ hoạch định tài chính Kim Hương Finance. Anh và các anh chị trong công ty đã nhiệt tình hướng dẫn, hỗ trợ và chia sẻ kinh nghiệm thực tế, giúp em tiếp cận môi trường làm việc chuyên nghiệp và tích lũy được những kỹ năng thực tiễn vô cùng thiết thực.
+Em cũng xin trân trọng cảm ơn **Công ty Cổ phần Dịch vụ Công nghệ LHD** – đặc biệt là **anh Nguyễn Hữu Đạt** (CEO) và toàn thể đội ngũ tại công ty – đã tạo cơ hội quý báu để em được tham gia thực tập và đóng góp vào dự án thiết kế website Blog cá nhân và công cụ hoạch định tài chính Kim Hương Finance. Anh và các anh chị trong công ty đã nhiệt tình hướng dẫn, hỗ trợ và chia sẻ kinh nghiệm thực tế, giúp em tiếp cận môi trường làm việc chuyên nghiệp và tích lũy được những kỹ năng thực tiễn vô cùng thiết thực.
 
 Cuối cùng, em xin gửi lời cảm ơn đến gia đình, bạn bè đã luôn động viên và đồng hành cùng em trong suốt thời gian học tập và thực tập.
 
@@ -73,27 +73,33 @@ Em xin chân thành cảm ơn!
 
 [1.4 Mong muốn từ sinh viên [7](#mong-muốn-từ-sinh-viên)](#mong-muốn-từ-sinh-viên)
 
-[CHƯƠNG 2: NHẬT KÝ CÔNG VIỆC [7](#chương-2-nhật-ký-công-việc)](#chương-2-nhật-ký-công-việc)
+[CHƯƠNG 2: NHẬT KÝ CÔNG VIỆC [8](#chương-2-nhật-ký-công-việc)](#chương-2-nhật-ký-công-việc)
 
 [CHƯƠNG 3: CÔNG VIỆC (Nội dung chính) [10](#chương-3-công-việc-nội-dung-chính)](#chương-3-công-việc-nội-dung-chính)
 
-[3.1 Nghiên cứu về tài chính cá nhân và nhu cầu hoạch định hưu trí [11](#nghiên-cứu-về-tài-chính-cá-nhân-và-nhu-cầu-hoạch-định-hưu-trí)](#nghiên-cứu-về-tài-chính-cá-nhân-và-nhu-cầu-hoạch-định-hưu-trí)
+[3.1 Hội nhập văn hoá doanh nghiệp và Nghiên cứu kiến thức nền tảng [10](#hội-nhập-văn-hoá-doanh-nghiệp-và-nghiên-cứu-kiến-thức-nền-tảng)](#hội-nhập-văn-hoá-doanh-nghiệp-và-nghiên-cứu-kiến-thức-nền-tảng)
 
-[3.2 Phân tích yêu cầu và Vẽ biểu đồ quy trình (Business Process Modeling) [11](#phân-tích-yêu-cầu-và-vẽ-biểu-đồ-quy-trình-business-process-modeling)](#phân-tích-yêu-cầu-và-vẽ-biểu-đồ-quy-trình-business-process-modeling)
+[3.2 Phân tích yêu cầu và Xác định tính năng hệ thống [11](#phân-tích-yêu-cầu-và-xác-định-tính-năng-hệ-thống)](#phân-tích-yêu-cầu-và-xác-định-tính-năng-hệ-thống)
 
-[3.3 Thiết kế Cơ sở dữ liệu và Cấu trúc Website (Sitemap) [11](#thiết-kế-cơ-sở-dữ-liệu-và-cấu-trúc-website-sitemap)](#thiết-kế-cơ-sở-dữ-liệu-và-cấu-trúc-website-sitemap)
+[3.3 Thiết kế cấu trúc và Luồng nghiệp vụ chi tiết [12](#thiết-kế-cấu-trúc-và-luồng-nghiệp-vụ-chi-tiết)](#thiết-kế-cấu-trúc-và-luồng-nghiệp-vụ-chi-tiết)
 
-[3.4 Thiết kế giao diện (UI/UX) hiện đại và tin cậy [11](#thiết-kế-giao-diện-uiux-hiện-đại-và-tin-cậy)](#thiết-kế-giao-diện-uiux-hiện-đại-và-tin-cậy)
+[3.4 Thiết kế giao diện (UI/UX) và Trải nghiệm người dùng [13](#thiết-kế-giao-diện-uiux-và-trải-nghiệm-người-dùng)](#thiết-kế-giao-diện-uiux-và-trải-nghiệm-người-dùng)
 
-[3.5 Xây dựng Website trên nền tảng Next.js [12](#xây-dựng-website-trên-nền-tảng-nextjs)](#xây-dựng-website-trên-nền-tảng-nextjs)
+[3.5 Phân tích công thức tính toán và Xây dựng bộ test case đối soát [14](#phân-tích-công-thức-tính-toán-và-xây-dựng-bộ-test-case-đối-soát)](#phân-tích-công-thức-tính-toán-và-xây-dựng-bộ-test-case-đối-soát)
 
-[3.6 Kiểm thử (Testing) và Tối ưu hóa [12](#kiểm-thử-testing-và-tối-ưu-hóa)](#kiểm-thử-testing-và-tối-ưu-hóa)
+[3.6 Xây dựng tài liệu đặc tả yêu cầu phần mềm (PRD) [15](#xây-dựng-tài-liệu-đặc-tả-yêu-cầu-phần-mềm-prd)](#xây-dựng-tài-liệu-đặc-tả-yêu-cầu-phần-mềm-prd)
 
-[CHƯƠNG 4: KẾT LUẬN [12](#chương-4-kết-luận)](#chương-4-kết-luận)
+[3.7 Kiểm thử chấp nhận người dùng (UAT) và Quản lý lỗi [16](#kiểm-thử-chấp-nhận-người-dùng-uat-và-quản-lý-lỗi)](#kiểm-thử-chấp-nhận-người-dùng-uat-và-quản-lý-lỗi)
 
-[4.1 Kết quả đạt được sau thực tập [12](#kết-quả-đạt-được-sau-thực-tập)](#kết-quả-đạt-được-sau-thực-tập)
+[3.8 Xây dựng tài liệu hướng dẫn và Bàn giao dự án [17](#xây-dựng-tài-liệu-hướng-dẫn-và-bàn-giao-dự-án)](#xây-dựng-tài-liệu-hướng-dẫn-và-bàn-giao-dự-án)
 
-[4.2 Bài học kinh nghiệm [12](#bài-học-kinh-nghiệm)](#bài-học-kinh-nghiệm)
+[CHƯƠNG 4: KẾT LUẬN [18](#chương-4-kết-luận)](#chương-4-kết-luận)
+
+[4.1 Kết quả đạt được sau thực tập [18](#kết-quả-đạt-được-sau-thực-tập)](#kết-quả-đạt-được-sau-thực-tập)
+
+[4.2 Bài học kinh nghiệm [19](#bài-học-kinh-nghiệm)](#bài-học-kinh-nghiệm)
+
+[4.3 Tổng kết [20](#tổng-kết)](#tổng-kết)
 
 # DANH MỤC TỪ VIẾT TẮT
 
@@ -102,18 +108,18 @@ Em xin chân thành cảm ơn!
 | 1             | BA                  | Business Analyst – Phân tích nghiệp vụ                                      |
 | 2             | UI                  | User Interface – Giao diện người dùng                                       |
 | 3             | UX                  | User Experience – Trải nghiệm người dùng                                   |
-| 4             | PRD                 | Product Requirement Document – Tài liệu đặc tả sản phẩm |
-| 5             | Flow                | Flow Diagram – Sơ đồ luồng nghiệp vụ                      |
+| 4             | SRS                 | Software Requirements Specification – Tài liệu đặc tả yêu cầu phần mềm |
+| 5             | ERD                 | Entity Relationship Diagram – Sơ đồ quan hệ thực thể                      |
 | 6             | CSDL                | Cơ sở dữ liệu                                                                |
-| 7             | UAT                | User Acceptance Testing – Kiểm thử chấp nhận người dùng                      |
+| 7             | CMS                 | Content Management System – Hệ thống quản lý nội dung                      |
 | 8             | TMĐT               | Thương mại điện tử                                                         |
 | 9             | API                 | Application Programming Interface – Giao diện lập trình ứng dụng           |
-| 10            | CRUD                | Create, Read, Update, Delete – Các thao tác cơ bản với dữ liệu           |
+| 10            | CRUD                | Create, Read, Update, Delete – Các thao tác cơ bản with dữ liệu           |
 | 11            | HTML                | HyperText Markup Language – Ngôn ngữ đánh dấu siêu văn bản              |
 | 12            | CSS                 | Cascading Style Sheets – Ngôn ngữ định dạng trang web                      |
-| 13            | Fintech             | Financial Technology – Công nghệ tài chính                               |
-| 14            | Next.js             | Framework phát triển Web dựa trên React                                  |
-| 15            | Tailwind            | Tailwind CSS – Framework CSS tiện ích (Utility-first CSS)                 |
+| 13            | Fintech             | Financial Technology – Công nghệ tài chính                                  |
+| 14            | Next.js             | Framework phát triển Web dựa trên React                                      |
+| 15            | Tailwind            | Tailwind CSS – Framework CSS tiện ích (Utility-first CSS)                     |
 
 # DANH MỤC HÌNH ẢNH
 
@@ -121,19 +127,23 @@ Em xin chân thành cảm ơn!
 
 Hình 1: Giao diện trang chủ website Kim Hương Finance
 
-Hình 2: Sơ đồ luồng (Flow Diagram) tổng quát của hệ thống
+Hình 2: Sơ đồ Use Case tổng quát của hệ thống
 
-Hình 3: Sitemap cấu trúc website 3 trang
+Hình 3: Sơ đồ Activity Diagram – Luồng hoạch định hưu trí 7 bước
 
-Hình 4: Mockup giao diện trang chủ và công cụ hoạch định trên Figma
+Hình 4: Sơ đồ ERD (Entity Relationship Diagram) của cơ sở dữ liệu
 
-Hình 5: Giao diện Responsive trên thiết bị di động
+Hình 5: Sitemap cấu trúc tổng thể website
 
-Hình 6: Ảnh chụp mã nguồn xử lý logic tính toán công thức tài chính
+Hình 6: Mockup giao diện trang chủ (Figma)
 
-Hình 7: Bảng đối soát kết quả tính toán giữa Excel và Website (UAT Test case)
+Hình 7: Mockup giao diện công cụ tính toán hưu trí
 
-*(Lưu ý: Sinh viên cần bổ sung hình ảnh thực tế vào các vị trí đã đánh dấu trong báo cáo)*
+Hình 8: Mockup giao diện đăng ký/đăng nhập và lưu kế hoạch
+
+Hình 9: Giao diện website trên thiết bị di động
+
+Hình 10: Kết quả kiểm thử – Danh sách lỗi (Log bug)
 
 # CHƯƠNG 1: TỔNG QUAN
 
@@ -153,228 +163,252 @@ Hình 7: Bảng đối soát kết quả tính toán giữa Excel và Website (U
 | CEO                  | Nguyễn Hữu Đạt                                                                  |
 | Lĩnh vực           | Phần mềm, Công nghệ thông tin, Thương mại điện tử, AI                    |
 
-Sứ mệnh của LHD TECH là **kiến tạo hệ sinh thái thông minh**, đồng hành cùng doanh nghiệp chuyển đổi số với tư duy AI-First. Công ty tự hào là đối tác tin cậy trong các dự án quy mô lớn cho các tổ chức tài chính – ngân hàng hàng đầu và các tập đoàn bán lẻ đa quốc gia.
+Sứ mệnh của LHD TECH là **kiến tạo hệ sinh thái thông minh**, đồng hành cùng doanh nghiệp chuyển đổi số with tư duy AI-First. Công ty tự hào là đối tác tin cậy trong các dự án quy mô lớn cho các tổ chức tài chính – ngân hàng hàng đầu và các tập đoàn bán lẻ đa quốc gia.
 
 ### 1.1.2 Các sản phẩm và dịch vụ
 
-LHD TECH cung cấp hệ sinh thái sản phẩm và giải pháp đa dạng, bao gồm:
+LHD TECH cung cấp một hệ sinh thái sản phẩm và giải pháp công nghệ đa dạng, tập trung mạnh mẽ vào các lĩnh vực như thương mại điện tử, trí tuệ nhân tạo (AI) và quản trị doanh nghiệp. Trong nhóm sản phẩm cốt lõi, công ty phát triển các nền tảng Commerce và bán lẻ hiện đại để hỗ trợ doanh nghiệp quản lý bán hàng đa kênh hiệu quả. Đối với mảng AI, đơn vị này tiên phong with các giải pháp AI Agentic Hub, AI Chatbot và AI Orchestrator nhằm tích hợp trí tuệ nhân tạo sâu rộng vào quy trình vận hành trực tiếp. Song song đó, các hệ sinh thái quản trị hiện đại bao gồm Self-Service Portal, báo cáo PowerBI và hệ thống quản trị nội dung (CMS) cũng đóng vai trò quan trọng trong danh mục dịch vụ.
 
-**Nhóm sản phẩm:**
-
-- **Commerce & Bán lẻ**: Nền tảng thương mại điện tử, quản lý bán hàng đa kênh.
-- **AI & Trí tuệ nhân tạo**: AI Agentic Hub, AI Chatbot, AI Orchestrator – tích hợp AI vào vận hành doanh nghiệp.
-- **Quản trị doanh nghiệp**: Self-Service Portal, PowerBI Reports, CMS & News.
-
-**Nhóm giải pháp theo ngành:**
-
-- Banking & Finance (Tài chính – Ngân hàng)
-- Doanh nghiệp (Enterprise)
-- Bán lẻ (Retail)
-- Y tế & Healthcare
-
-Quy trình triển khai của LHD TECH gồm 6 bước chuẩn hóa: Khảo sát Nhu cầu → Master Plan → Phân Tích Thiết Kế → Phát Triển Xây Dựng → Kiểm Thử Triển Khai → Giám Sát Tối Ưu.
+Về mặt giải pháp theo ngành, LHD TECH triển khai các dự án chuyên sâu cho lĩnh vực Tài chính – Ngân hàng, các doanh nghiệp quy mô Enterprise, ngành bán lẻ và mảng Y tế – Healthcare. Toàn bộ quá trình triển khai sản phẩm tại đây đều được thực hiện thông qua một quy trình 6 bước chuẩn hóa, đi từ khâu khảo sát nhu cầu ban đầu và lập kế hoạch tổng thể (Master Plan). Sau đó, đội ngũ chuyên gia sẽ tiến hành phân tích thiết kế, phát triển xây dựng, kiểm thử triển khai trước khi bước vào giai đoạn cuối là giám sát và tối ưu hóa hệ thống một cách liên tục.
 
 ### 1.1.3 Cơ cấu tổ chức doanh nghiệp
 
-LHD TECH được tổ chức theo mô hình chức năng với các bộ phận chính:
+LHD TECH được vận hành theo mô hình chức năng with sự phân chia nhiệm vụ rõ ràng giữa các bộ phận để đảm bảo tính chuyên môn hóa cao nhất trong từng dự án công nghệ. Đứng đầu tổ chức là Ban Giám đốc do CEO Nguyễn Hữu Đạt trực tiếp điều hành, chịu trách nhiệm chính trong việc đề ra các định hướng chiến lược và phát triển các sản phẩm trọng tâm của công ty. Để hiện thực hóa các ý tưởng công nghệ, Bộ phận Kỹ thuật (Engineering) đóng vai trò nòng cốt trong việc xây dựng kiến trúc hệ thống, phát triển phần mềm và tích hợp các giải pháp trí tuệ nhân tạo tiên tiến.
 
-- **Ban Giám đốc**: CEO Nguyễn Hữu Đạt – định hướng chiến lược và phát triển sản phẩm.
-- **Bộ phận Kỹ thuật (Engineering)**: Phát triển phần mềm, kiến trúc hệ thống, tích hợp AI.
-- **Bộ phận Phân tích nghiệp vụ (BA)**: Khảo sát yêu cầu, thiết kế quy trình, viết tài liệu đặc tả.
-- **Bộ phận Thiết kế (UI/UX)**: Thiết kế giao diện người dùng và trải nghiệm sản phẩm.
-- **Bộ phận Kinh doanh & Marketing**: Tư vấn khách hàng, phát triển thị trường.
-- **Bộ phận Kiểm thử (QA/QC)**: Đảm bảo chất lượng sản phẩm trước khi ra mắt.
+Song hành cùng bộ phận kỹ thuật là Bộ phận Phân tích nghiệp vụ (BA), nơi chịu trách nhiệm khảo sát các yêu cầu thực tế từ khách hàng, thiết kế quy trình kinh doanh và biên soạn các tài liệu đặc tả kỹ thuật chi tiết. Ngoài ra, cơ cấu tổ chức của LHD TECH còn bao gồm Bộ phận Thiết kế (UI/UX) đảm nhận việc tối ưu hóa giao diện và trải nghiệm người dùng; Bộ phận Kinh doanh & Marketing thực hiện tư vấn khách hàng và phát triển thị trường; cùng Bộ phận Kiểm thử (QA/QC) nhằm đảm bảo mọi sản phẩm đều đạt chất lượng cao nhất trước khi ra mắt thị trường. Mô hình tổ chức này giúp các dự án của công ty luôn được vận hành một cách nhịp nhàng và hiệu quả.
 
-Trong thời gian thực tập tại Công ty Cổ phần Dịch vụ Công nghệ LHD với vị trí **Business Analyst – Fintech**, em đã được tham gia trực tiếp vào dự án xây dựng **website Kim Hương Finance** – một nền tảng tích hợp công cụ hoạch định tài chính và hưu trí chuyên nghiệp.
+## 1.2 Mô tả vắn tắt công việc đã được làm
+
+Trong thời gian thực tập tại Công ty Cổ phần Dịch vụ Công nghệ LHD with vị trí **Business Analyst – Blog cá nhân & Fintech**, em đã được tham gia trực tiếp vào dự án xây dựng **website Kim Hương Finance** – một blog cá nhân tích hợp công cụ hoạch định tài chính và hưu trí chuyên nghiệp.
 
 Cụ thể, các công việc em đã thực hiện bao gồm:
 
 - **Nghiên cứu lĩnh vực** (Domain Research): Tìm hiểu về kiến thức tài chính cá nhân, quy trình hoạch định hưu trí, các chỉ số lạm phát, lãi suất và nhu cầu tiết kiệm của người dùng.
-- **Phân tích yêu cầu** (Requirement Analysis): Tham gia khảo sát nhu cầu người dùng, xây dựng danh sách tính năng (Feature List) và soạn thảo nội dung PRD (Product Requirement Document) cho công cụ tính toán hưu trí 7 bước phụ giúp PM.
-- **Vẽ sơ đồ nghiệp vụ**: Tham gia vẽ Flow Diagram (Sơ đồ luồng) mô tả chi tiết các bước tính toán công thức tài chính và luồng xử lý thông tin của người dùng.
-- **Thu thập tham số dữ liệu**: Phụ trách nghiên cứu và thu thập các tham số đầu vào thực tế như tỷ lệ lạm phát mục tiêu, mức sống tối thiểu để đưa vào bộ máy tính toán.
-- **Tham gia thiết kế UI/UX**: Thực hiện thiết kế Wireframe và Mockup trên Figma cho 3 trang chủ đạo, lựa chọn tông màu chuyên nghiệp, tin cậy (Xanh dương – Trắng – Xám).
-- **Kiểm thử logic**: Tham gia kiểm thử các kịch bản tính toán (UAT Test case) để đảm bảo độ chính xác của công thức tài chính so với Excel.
+- **Phân tích yêu cầu** (Requirement Analysis): Tham gia vào các phần khảo sát nhu cầu người dùng, xây dựng danh sách tính năng (Feature List) và đặc tả yêu cầu cho công cụ tính toán hưu trí 7 bước.
+- **Vẽ sơ đồ nghiệp vụ**: Tham gia vẽ Activity Diagram, mô tả luồng tính toán tài chính và lưu trữ thông tin của người dùng.
+- **Thiết kế cơ sở dữ liệu**: Phụ trách thu thập dữ liệu về các bài viết chuyên sâu về tài chính.
+- **Tham gia thiết kế UI/UX**: Hỗ trợ thiết kế Wireframe và Mockup trên Figma, lựa chọn tông màu chuyên nghiệp, tin cậy (Xanh dương – Trắng – Xám).
+- **Lập trình và triển khai**: Tham gia theo dõi, cập nhật tiến độ cho PM và kiểm thử logic tính toán.
 
 ## 1.3 Mong muốn từ doanh nghiệp
 
-Trong quá trình tiếp nhận sinh viên thực tập, Công ty LHD TECH kỳ vọng sinh viên có thể:
+Trong quá trình tiếp nhận sinh viên thực tập, Công ty LHD TECH đặt ra những kỳ vọng cụ thể nhằm hỗ trợ tối đa cho sự phát triển của sinh viên đồng thời mang lại giá trị thực tế cho các dự án của doanh nghiệp. Trước hết, công ty mong muốn sinh viên có thể đóng góp trực tiếp vào quá trình phân tích nghiệp vụ, thiết kế và xây dựng website Kim Hương Finance – một dự án quan trọng kết hợp giữa nội dung số và các công cụ tài chính chuyên sâu. Để thực hiện tốt nhiệm vụ này, sinh viên cần chủ động nghiên cứu các lĩnh vực đặc thù như tài chính cá nhân, bảo hiểm và đầu tư để đảm bảo tính chính xác và tin cậy cho nền tảng nội dung của website.
 
-- **Hỗ trợ hoàn thiện sản phẩm**: Đóng góp trực tiếp vào quá trình phân tích nghiệp vụ, thiết kế và xây dựng website Kim Hương Finance – một dự án kết hợp giữa nội dung số và công cụ tài chính.
-- **Nghiên cứu domain đặc thù**: Tìm hiểu và tổng hợp kiến thức về tài chính, bảo hiểm và đầu tư để xây dựng nền tảng nội dung chính xác.
-- **Áp dụng kiến thức học thuật vào thực tế**: Vận dụng các kỹ năng phân tích nghiệp vụ, thiết kế CSDL và tư duy sản phẩm đã được đào tạo tại trường vào môi trường làm việc thực tế.
-- **Tiếp nhận và hoàn thành công việc độc lập**: Có khả năng tự chủ trong nghiên cứu, trình bày kết quả và chủ động giao tiếp với Mentor khi gặp khó khăn.
-- **Đảm bảo chất lượng và tiến độ**: Hoàn thành các đầu việc được giao đúng hạn, đảm bảo chất lượng theo tiêu chuẩn của công ty.
+Bên cạnh đó, việc vận dụng linh hoạt các kỹ năng học thuật đã được đào tạo tại trường như phân tích nghiệp vụ, thiết kế cơ sở dữ liệu và tư duy sản phẩm vào môi trường làm việc thực tiễn là một yêu cầu then chốt. Công ty cũng đặc biệt đề cao khả năng làm việc độc lập, tinh thần tự chủ trong nghiên cứu và sự chủ động trong việc giao tiếp, trình bày kết quả with người hướng dẫn (Mentor) khi gặp khó khăn. Cuối cùng, sinh viên cần đảm bảo hoàn thành các đầu việc được giao đúng thời hạn, cam kết chất lượng sản phẩm đầu ra luôn đạt tiêu chuẩn chuyên nghiệp mà công ty đã đề ra.
 
 ## 1.4 Mong muốn từ sinh viên
 
-Với tư cách là sinh viên thực tập, em mong muốn đạt được những mục tiêu sau trong thời gian thực tập tại LHD TECH:
+Với tư cách là sinh viên thực tập, em xác định kỳ thực tập tại LHD TECH là cơ hội quý báu để trải nghiệm và trưởng thành trong một môi trường làm việc công nghệ chuyên nghiệp. Mục tiêu hàng đầu của em là thấu hiểu sâu sắc cách thức vận hành của một doanh nghiệp trong thực tế, từ quy trình phối hợp nhóm, quản lý dự án cho đến các kỹ năng giao tiếp chuyên môn with Mentor và các thành viên khác. Thông qua việc tham gia trực tiếp vào dự án website Kim Hương Finance, em mong muốn được rèn luyện và áp dụng thành thạo các kỹ thuật phân tích nghiệp vụ chuyên sâu như xây dựng sơ đồ Use Case, Activity Diagram, thiết kế ERD và biên soạn tài liệu đặc tả SRS.
 
-- **Trải nghiệm môi trường làm việc chuyên nghiệp**: Hiểu cách thức vận hành của một công ty công nghệ, từ quy trình làm việc nhóm, quản lý dự án đến giao tiếp với khách hàng và Mentor.
-- **Rèn luyện kỹ năng phân tích nghiệp vụ thực tiễn**: Áp dụng thành thạo các kỹ thuật BA (PRD, Flow Diagram, UAT) trên một dự án thực tế.
-- **Học hỏi công nghệ và quy trình phát triển phần mềm**: Nắm vững quy trình từ phân tích yêu cầu, thiết kế, phát triển đến kiểm thử và triển khai sản phẩm.
-- **Xây dựng sản phẩm có ý nghĩa**: Mong muốn đóng góp tạo ra một công cụ thực sự hữu ích, giúp người dùng chủ động hơn trong việc quản lý tài chính và chuẩn bị cho tương lai hưu trí.
-- **Xây dựng nền tảng cho sự nghiệp**: Tích lũy kinh nghiệm, kỹ năng và mối quan hệ chuyên môn làm nền tảng vững chắc cho định hướng nghề nghiệp BA/Product trong tương lai.
+Đồng thời, việc nắm vững quy trình phát triển phần mềm khép kín từ khâu phân tích yêu cầu, thiết kế giao diện đến kiểm thử và triển khai sản phẩm sẽ giúp em củng cố nền tảng kiến thức chuyên môn một cách vững chắc nhất. Hơn cả một mục tiêu học tập, em hy vọng có thể đóng góp công sức vào việc tạo ra một sản phẩm công nghệ có ý nghĩa thực tiễn, giúp người dùng chủ động hơn trong việc quản lý tài chính và chuẩn bị lộ trình hưu trí bền vững. Những kinh nghiệm, kỹ năng và mối quan hệ chuyên môn tích lũy được trong thời gian này sẽ là hành trang quan trọng, làm nền tảng vững chắc cho định hướng sự nghiệp trở thành một chuyên viên Phân tích nghiệp vụ (BA) trong tương lai.
 
 # CHƯƠNG 2: NHẬT KÝ CÔNG VIỆC
 
-+---------------+-------------------+--------------------------------------------------------------------------+------------------------------------------------------+
-| **Tuần (TT)** | **Thời gian**     | **Nội dung công việc**                                                   | **Kết quả đạt được / Ghi chú**                       |
-+===============+===================+==========================================================================+======================================================+
-| **Tuần 1**    | **05/01**         | -- Gặp mặt Mentor, tiếp nhận dự án website Kim Hương Finance (3 trang).  | -- Hiểu mục tiêu dự án và quy trình làm việc.        |
-|               |                   | -- Tìm hiểu quy định công ty và văn hóa doanh nghiệp.                    | -- Cài đặt xong môi trường làm việc cơ bản.          |
-|               | **07/01**         | -- Nghiên cứu domain Tài chính cá nhân, lạm phát và lãi suất kép.        | -- Nắm vững các khái niệm tài chính nền tảng.        |
-|               | **09/01**         | -- Khảo sát các công cụ tính toán hưu trí trên thị trường.               | -- Danh sách các input cần thiết cho calculator.     |
-+---------------+-------------------+--------------------------------------------------------------------------+------------------------------------------------------+
-| **Tuần 2**    | **12/01**         | -- Thu thập yêu cầu cho trang chủ (Home). Phụ PM ghi chú các section.    | -- Draft yêu cầu các thành phần trang chủ.           |
-|               | **14/01**         | -- Viết nháp phần PRD cho tính năng "Định danh người dùng" đơn giản.     | -- Hoàn thành User Story cho Login/Register.         |
-|               | **16/01**         | -- Vẽ mockup sơ khai (Wireframe) cho trang "Về tôi" (About me).          | -- Mentor duyệt layout trang giới thiệu.             |
-+---------------+-------------------+--------------------------------------------------------------------------+------------------------------------------------------+
-| **Tuần 3**    | **19/01**         | -- Thu thập yêu cầu nghiệp vụ cho công cụ "Hoạch định hưu trí".          | -- Danh sách 7 bước trong quy trình hoạch định.      |
-|               | **21/01**         | -- Soạn thảo PRD phần User Story cho việc nhập liệu tài chính.          | -- Tài liệu chi tiết các trường dữ liệu input.       |
-|               | **23/01**         | -- Thiết kế mockup chi tiết cho trang "Về tôi" trên Figma.               | -- Hoàn thiện giao diện trang About Me.              |
-+---------------+-------------------+--------------------------------------------------------------------------+------------------------------------------------------+
-| **Tuần 4**    | **26/01**         | -- Thu thập yêu cầu giao diện cho biểu đồ công cụ hưu trí.               | -- Xác định các loại biểu đồ cần hiển thị.           |
-|               | **28/01**         | -- Viết PRD phần "Yêu cầu chức năng" cho bộ máy tính toán.              | -- Đặc tả logic tính toán cho Dev.                   |
-|               | **30/01**         | -- Thiết kế mockup cho trang chủ (Home) phiên bản Desktop.               | -- Mentor duyệt giao diện trang chủ chính thức.      |
-+---------------+-------------------+--------------------------------------------------------------------------+------------------------------------------------------+
-| **Tuần 5**    | **02/02**         | -- Test công thức tính toán hưu trí trên Excel để đối soát hệ thống.     | -- Đảm bảo logic tính toán chính xác tuyệt đối.      |
-|               | **04/02**         | -- Thiết kế mockup cho công cụ hưu trí (Bước 1 & 2: Thu nhập/Chi phí).    | -- Hoàn thành giao diện nhập liệu bước đầu.          |
-|               | **06/02**         | -- Cập nhật PRD phần "Yêu cầu phi chức năng" (Security, Accuracy).       | -- Hoàn thiện tiêu chuẩn chất lượng sản phẩm.        |
-+---------------+-------------------+--------------------------------------------------------------------------+------------------------------------------------------+
-| **Tuần 6**    | **09/02**         | -- Test công thức với biến số phức tạp (Lạm phát, Kỳ vọng sống).         | -- Xử lý được các kịch bản tài chính đa dạng.        |
-|               | **11/02**         | -- Hoàn thiện mockup cho toàn bộ 7 bước của công cụ trên Figma.          | -- Hoàn thành bộ thiết kế UI cho Calculator.         |
-|               | **13/02**         | -- Phụ PM rà soát tổng thể PRD trước khi bàn giao cho đội Dev.           | -- Tài liệu PRD sẵn sàng để lập trình.               |
-+---------------+-------------------+--------------------------------------------------------------------------+------------------------------------------------------+
-| **Nghỉ Tết**  | **16 - 22/02**    | **NGHỈ TẾT NGUYÊN ĐÁN BÍNH NGỌ 2026**                                    | *(Nghỉ theo quy định)*                               |
-+---------------+-------------------+--------------------------------------------------------------------------+------------------------------------------------------+
-| **Tuần 7**    | **23/02**         | -- Kiểm tra lại công thức sau khi Dev tích hợp vào hệ thống.             | -- Phát hiện và báo cáo các lỗi sai lệch số liệu.    |
-|               | **25/02**         | -- Thiết kế mockup phiên bản Mobile cho 3 trang (Responsive).            | -- Giao diện tương thích đa thiết bị.                |
-|               | **27/02**         | -- Viết tài liệu hướng dẫn sử dụng (User Guide) cho người dùng cuối.     | -- Hoàn thành bản thảo hướng dẫn sử dụng.            |
-+---------------+-------------------+--------------------------------------------------------------------------+------------------------------------------------------+
-| **Tuần 8**    | **02/03**         | -- Test công thức phần Lợi nhuận đầu tư và Kịch bản hưu trí sớm.         | -- Tối ưu hóa bộ máy tính toán cho nhiều mục tiêu.   |
-|               | **04/03**         | -- Chỉnh sửa mockup button/icon theo feedback của Team thiết kế.         | -- Tăng tính thẩm mỹ và trải nghiệm người dùng.      |
-|               | **06/03**         | -- Cập nhật PRD các trường hợp biên (Edge cases) khi dữ liệu trống.      | -- Hệ thống xử lý lỗi nhập liệu mượt mà.             |
-+---------------+-------------------+--------------------------------------------------------------------------+------------------------------------------------------+
-| **Tuần 9**    | **09/03**         | -- Tổng kiểm thử (UAT) luồng hoạch định 7 bước hoàn chỉnh.               | -- Sản phẩm chạy ổn định đúng yêu cầu nghiệp vụ.     |
-|               | **11/03**         | -- Viết báo cáo lỗi (Bug log) về mặt UI/UX cho đội dev fix.              | -- Các lỗi hiển thị trên Mobile được xử lý.          |
-|               | **13/03**         | -- Hoàn thiện tài liệu PRD bản cuối cùng phụ giúp PM.                    | -- Bộ hồ sơ dự án hoàn chỉnh.                        |
-+---------------+-------------------+--------------------------------------------------------------------------+------------------------------------------------------+
-| **Tuần 10**   | **16/03**         | -- Viết báo cáo thực tập Chương 1 & 2, minh chứng test công thức.        | -- Draft báo cáo gửi Mentor review.                  |
-|               | **18/03**         | -- Mentor review báo cáo thực tập và góp ý chỉnh sửa.                    | -- Chỉnh sửa báo cáo theo hướng dẫn của Mentor.       |
-|               | **20/03**         | -- Hoàn tất báo cáo, xin dấu xác nhận và bàn giao tài liệu.              | -- Hoàn thành kỳ thực tập tại doanh nghiệp.          |
-+---------------+-------------------+--------------------------------------------------------------------------+------------------------------------------------------+
-| **Wrap-up**   | **23/03 - 30/03** | -- Nộp báo cáo về trường và hoàn thiện hồ sơ thực tập.                   | -- Kết thúc học phần thực tập tốt nghiệp.            |
-+---------------+-------------------+--------------------------------------------------------------------------+------------------------------------------------------+
+| Tuần (TT) | Thời gian    | Nội dung công việc                                                                                                                                             | Kết quả đạt được / Ghi chú                                                    |
+| ------------ | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| Tuần 1    | 05/01         | Gặp mặt Mentor, tiếp nhận đề tài và cài đặt môi trường làm việc.Tìm hiểu quy định công ty và văn hóa doanh nghiệp.                       | Cài đặt xong Git, VS Code.Hiểu rõ nội quy công ty.                             |
+| <br/>          | 07/01         | Nghiên cứu tổng quan về đề tài: Tài chính cá nhân và hưu trí.                                                                                       | Liệt kê các yếu tố ảnh hưởng đến kế hoạch hưu trí (Tuổi, Chi phí...). |
+| <br/>          | 09/01         | Khảo sát thị trường: Phân tích các bộ công cụ tính toán tài chính.Xác định nhóm khách hàng mục tiêu (Người lao động, người trẻ...). | Hiểu rõ chân dung khách hàng mục tiêu.                                         |
+| Tuần 2    | 12/01         | Xác định yêu cầu cho công cụ tính toán hưu trí (7 bước).Lên danh sách tính năng: Nhập thu nhập, tài sản, nợ, hoạch định.                 | Danh sách chức năng (Feature List).                                                |
+| <br/>          | 14/01         | Phân tích nghiệp vụ: Vẽ sơ đồ Use Case cho hệ thống.Xác định các Actor (Người dùng, Admin).                                                      | Hoàn thành Use Case Diagram.                                                        |
+| <br/>          | 16/01         | Phân tích chi tiết quy trình "Hoạch định hưu trí 7 bước".                                                                                              | Nội dung các bước cần nhập.                                                     |
+| Tuần 3    | 19/01         | Vẽ sơ đồ hoạt động (Activity Diagram).                                                                                                                     | Sơ đồ luồng nghiệp vụ chính.                                                   |
+| <br/>          | 21/01         | Xây dựng cấu trúc website cùng khách và PM.                                                                                                                | Có được các mục tính năng chính và sketch layout website.                   |
+| <br/>          | 23/01         | Thiết kế giao diện.                                                                                                                                            | Bản mockup trang chủ, về tôi.                                                     |
+| Tuần 4    | 26/01         | Chọn tone màu.Đọc hiểu bảng công thức tính mà khách gửi.                                                                                              | Chốt được tone màu.                                                              |
+| <br/>          | 28/01         | Thiết kế bảng tính.                                                                                                                                           | Mockup các phần tính toán.                                                        |
+| <br/>          | 30/01         | Đọc hiểu lại công thức và làm 1 test case with khách để test lại công thức code.                                                                    | Ra được 1 bảng tính có số liệu mẫu.                                          |
+| Tuần 5    | 02/02         | Hỗ trợ viết PRD cho dự án.                                                                                                                                   | Viết phần tổng quan dự án.                                                       |
+| <br/>          | 04/02         | Cập nhật PRD phần "Yêu cầu phi chức năng" (Security, Accuracy)                                                                                             | Hoàn thiện tiêu chuẩn chất lượng sản phẩm.                                   |
+| <br/>          | 06/02         | Thiết kế mockup cho công cụ hưu trí (Bước 1 & 2: Thu nhập/Chi phí).                                                                                     | Hoàn thành giao diện nhập liệu bước đầu.                                     |
+| Tuần 6    | 09/02         | Test công thức tính toán hưu trí trên Excel để đối soát hệ thống.                                                                                   | Đảm bảo logic tính toán chính xác tuyệt đối.                                |
+| <br/>          | 11/02         | Hoàn thiện mockup cho toàn bộ 7 bước của công cụ trên Figma.                                                                                            | Hoàn thành bộ thiết kế UI cho công thức.                                       |
+| <br/>          | 13/02         | Phụ PM rà soát tổng thể PRD trước khi bàn giao cho đội Dev.                                                                                             | Tài liệu PRD sẵn sàng để lập trình.                                           |
+| Nghỉ Tết | 16 - 22/02    | NGHỈ TẾT NGUYÊN ĐÁN BÍNH NGỌ 2026                                                                                                                          | <br/>                                                                                     |
+| Tuần 7    | 23/02         | Kiểm tra lại công thức sau khi Dev tích hợp vào hệ thống.                                                                                                | Phát hiện và báo cáo các lỗi sai lệch số liệu.                              |
+| <br/>          | 25/02         | Viết tài liệu hướng dẫn sử dụng (User Guide) cho người dùng cuối.                                                                                     | Lên sườn cho hướng dẫn sử dụng                                                |
+| <br/>          | 27/02         | Viết tài liệu hướng dẫn sử dụng (User Guide) cho người dùng cuối.                                                                                     | Hoàn thành hướng dẫn sử dụng.                                                  |
+| Tuần 8    | 02/03         | Test công thức phần Lợi nhuận đầu tư và Kịch bản hưu trí sớm.                                                                                       | Đảm bảo hệ thống chạy ổn.                                                      |
+| <br/>          | 04/03         | Cập nhật PRD các trường hợp biên (Edge cases) khi dữ liệu trống.                                                                                        | Bổ sung edge case cho PRD                                                            |
+| <br/>          | 06/03         | Tổng kiểm thử (UAT) luồng 7 bước hoàn chỉnh.                                                                                                              | Sản phẩm chạy ổn định đúng yêu cầu nghiệp vụ.                             |
+| Tuần 9    | 09/03         | Viết báo cáo lỗi (Bug log) về mặt UI/UX cho đội dev fix.                                                                                                  | Các lỗi hiển thị được xử lý.                                                 |
+| <br/>          | 11/03         | Hoàn thiện tài liệu PRD bản cuối cùng phụ giúp PM.                                                                                                       | <br/>                                                                                     |
+| <br/>          | 13/03         | Viết báo cáo thực tập Chương 1 & 2                                                                                                                         | Draft báo cáo gửi Mentor tại công ty review.                                     |
+| Tuần 10   | 16/03         | Mentor review báo cáo thực tập và góp ý chỉnh sửa.                                                                                                       | Chỉnh sửa báo cáo theo hướng dẫn.                                              |
+| <br/>          | 18/03         | Hoàn tất báo cáo.                                                                                                                                             | <br/>                                                                                     |
+| <br/>          | 20/03         | Xin dấu xác nhận thực tập.Bàn giao tài liệu cho công ty.                                                                                                 | Phiếu đánh giá thực tập có dấu mộc.                                          |
+| Wrap-up    | 23/03 - 30/03 | Nộp báo cáo cho giảng viên review.Nộp báo cáo về khoa/trường.Xử lý các thủ tục hành chính sau thực tập.                                       | Hoàn tất môn Thực tập tốt nghiệp.                                              |
 
 # CHƯƠNG 3: CÔNG VIỆC (Nội dung chính)
 
-*Phần này tập trung vào các công đoạn nghiên cứu, phân tích và xây dựng giải pháp cho website tài chính Kim Hương Finance.*
+*Chương này trình bày chi tiết các công việc, quy trình nghiên cứu, phân tích và triển khai giải pháp cho dự án Blog tài chính Kim Hương Finance mà sinh viên đã thực hiện trong suốt quá trình thực tập.*
 
-## 3.1 Nghiên cứu về tài chính cá nhân và nhu cầu hoạch định hưu trí
+## 3.1 Hội nhập văn hoá doanh nghiệp và Nghiên cứu kiến thức nền tảng
 
-- **3.1.1 Mục tiêu công việc:** Hiểu rõ các nguyên tắc hoạch định tài chính, các bước xây dựng lộ trình hưu trí để tích hợp vào website; nghiên cứu hành vi người dùng đối với các công cụ tài chính trực tuyến.
-- **3.1.2 Đầu vào của công việc:** Tài liệu về tài chính cá nhân, kinh tế học, các website hoạch định tài chính quốc tế, khảo sát nhu cầu hưu trí.
-- **3.1.3 Nội dung:**
-  - Phân loại các mục tiêu tài chính ngắn hạn (Tiết kiệm, giáo dục) và dài hạn (Hưu trí).
-  - Nghiên cứu công thức tính toán giá trị tương lai (FV), chiết khấu dòng tiền (DCF).
-  - Phân tích ưu/nhược điểm của các công cụ tính toán hưu trí hiện có.
-- **3.1.4 Kết quả của công việc:** Danh sách tham số cần thiết cho công cụ hoạch định hưu trí và cấu trúc tính năng website.
+### 3.1.1 Mục tiêu công việc
+Mục tiêu của giai đoạn này là giúp sinh viên nắm vững văn hóa làm việc tại LHD TECH, hiểu rõ quy định của doanh nghiệp và bước đầu tiếp cận lĩnh vực tài chính cá nhân – hưu trí để chuẩn bị cho việc phân tích dự án.
 
-## 3.2 Soạn thảo tài liệu PRD và Vẽ biểu đồ luồng (Flow Diagram)
+### 3.1.2 Đầu vào công việc
+- Tài liệu đào tạo nội bộ và nội quy công ty.
+- Đề tài thực tập from người hướng dẫn (Mentor).
+- Các nguồn tài liệu về lạm phát, lãi suất kép và mục tiêu hưu trí trên internet.
 
-- **3.2.1 Mục tiêu công việc:** Đặc tả chi tiết các tính năng của website (3 trang) và luồng xử lý của công cụ tính toán hưu trí.
-- **3.2.2 Đầu vào của công việc:** Yêu cầu từ Mentor, kết quả nghiên cứu ở mục 3.1.
-- **3.2.3 Nội dung:**
-  - Xây dựng tài liệu PRD (Product Requirement Document) bao gồm: User Story, Functional Requirements (Yêu cầu chức năng) và các ràng buộc dữ liệu đầu vào cho 7 bước hoạch định.
-  - Vẽ Flow Diagram (Sơ đồ luồng) tổng thể cho bộ máy tính toán, từ lúc người dùng nhập thông tin -> xử lý lạm phát/lãi suất -> kết quả cuối cùng.
-  - Phụ giúp PM rà soát các trường hợp biên (Edge cases) trong tài liệu đặc tả.
-- **3.2.4 Kết quả của công việc:** Tài liệu PRD hoàn chỉnh và sơ đồ luồng nghiệp vụ tài chính.
+### 3.1.3 Chi tiết
+- Tìm hiểu về văn hóa "AI-First" của công ty và cách thức vận hành dự án theo mô hình Agile.
+- Nghiên cứu các chỉ số tài chính vĩ mô ảnh hưởng đến tích lũy hưu trí như tỷ lệ lạm phát mục tiêu, lãi suất tiền gửi và nhu cầu chi tiêu của người Việt sau 60 tuổi.
+- Khảo sát các công cụ tính toán tài chính của các tổ chức quốc tế như Vanguard, Fidelity để rút ra ưu nhược điểm.
 
-  [Gợi ý bổ sung hình ảnh tại đây: Hình 2 - Sơ đồ luồng (Flow Diagram) tổng quát của hệ thống]
+### 3.1.4 Cách thực hiện
+- Tham gia các buổi họp định hướng (Orientation) cùng Mentor và các thành viên trong team.
+- Sử dụng các công cụ tìm kiếm và phân tích đối thủ (Benchmarking) để tổng hợp báo cáo nghiên cứu thị trường.
+- Thảo luận trực tiếp with Mentor để xác định chân dung khách hàng mục tiêu của dự án.
 
-## 3.3 Thiết kế cấu trúc Website (Sitemap) và Luồng dữ liệu (Data Flow)
+## 3.2 Phân tích yêu cầu và Xác định tính năng hệ thống
 
-- **3.3.1 Mục tiêu công việc:** Tổ chức cấu trúc website tinh gọn với 3 trang chủ đạo và xác định cách thức dữ liệu được truyền tải qua các bước.
-- **3.3.2 Đầu vào của công việc:** Danh sách tính năng trong PRD.
-- **3.3.3 Nội dung:**
-  - Xây dựng Sitemap cho website 3 trang: Trang chủ (Home) -> Công cụ hoạch định -> Về tôi (About Me).
-  - Mô tả luồng dữ liệu (Data Flow) giữa các interface trong công cụ 7 bước để đảm bảo trải nghiệm người dùng liền mạch.
-- **3.3.4 Kết quả của công việc:** Sơ đồ cấu trúc chức năng website và mô hình luồng dữ liệu.
+### 3.2.1 Mục tiêu công việc
+Định hình các chức năng cốt lõi của website và công cụ hoạch định tài chính, đảm bảo giải quyết đúng nhu cầu của người dùng mục tiêu.
 
-  [Gợi ý bổ sung hình ảnh tại đây: Hình 3 - Sitemap cấu trúc website 3 trang]
+### 3.2.2 Đầu vào của công việc
+- Báo cáo nghiên cứu thị trường và chân dung khách hàng ở mục 3.1.
+- Ý tưởng sơ bộ from khách hàng về một quy trình "Hoạch định 7 bước".
 
-## 3.4 Thiết kế giao diện (UI/UX) hiện đại và chuyên nghiệp
+### 3.2.3 Chi tiết
+- Xây dựng danh sách tính năng (Feature List) bao gồm: Quản lý bài viết blog, Nhập liệu tài chính (thu nhập, chi phí, nợ), và 7 bước hoạch định hưu trí.
+- Xác định các tác nhân (Actor) và các tương tác chính trong hệ thống.
 
-- **3.4.1 Mục tiêu công việc:** Tạo giao diện giúp người dùng dễ dàng thực hiện các tính toán tài chính phức tạp một cách đơn giản nhất.
-- **3.4.2 Đầu vào của công việc:** Sitemap, PRD và Tone màu chủ đạo (Xanh dương - Trắng - Xám).
-- **3.4.3 Nội dung:**
-  - Thiết kế Mockup trang chủ hiện đại, trang "Về tôi" thân thiện và đặc biệt là giao diện công cụ tính toán với các thanh trượt (slider) và biểu đồ trực quan.
-  - Tối ưu hóa giao diện cho thiết bị di động (Responsive Design) để người dùng có thể hoạch định mọi lúc mọi nơi.
-- **3.4.4 Kết quả của công việc:** Bản thiết kế Figma hoàn chỉnh cho 3 màn hình Desktop và Mobile.
+### 3.2.4 Cách thực hiện
+- Sử dụng phương pháp liệt kê và phân loại yêu cầu (Functional & Non-functional requirements).
+- Vẽ sơ đồ Use Case tổng quát để trực quan hóa phạm vi hệ thống.
 
-  [Gợi ý bổ sung hình ảnh tại đây: Hình 4 - Mockup giao diện trang chủ và công cụ hoạch định trên Figma; Hình 5 - Giao diện Responsive trên thiết bị di động]
+## 3.3 Thiết kế cấu trúc và Luồng nghiệp vụ chi tiết
 
-## 3.5 Hiện thực hóa logic tính toán trên nền tảng Next.js
+### 3.3.1 Mục tiêu công việc
+Chuyển hóa các yêu cầu chức năng thành sơ đồ luồng dữ liệu và cấu trúc trang web chi tiết trước khi bước vào giai đoạn thiết kế giao diện.
 
-- **3.5.1 Mục tiêu công việc:** Chuyển hóa các công thức tài chính phức tạp từ PRD thành mã nguồn hoạt động trên website.
-- **3.5.2 Đầu vào của công việc:** Bản thiết kế Figma, Tài liệu PRD, Framework Next.js.
-- **3.5.3 Nội dung:**
-  - Xây dựng logic xử lý cho 7 bước hoạch định hưu trí, tích hợp các tham số biến thiên như tỷ lệ lạm phát, lãi suất đầu tư.
-  - Phát triển giao diện người dùng dựa trên Mockup đã duyệt, đảm bảo tính thẩm mỹ và hiệu ứng chuyển trang mượt mào.
-- **3.5.4 Kết quả của công việc:** Website chạy ổn định với bộ máy tính toán chính xác.
+### 3.3.2 Đầu vào của công việc
+- Danh sách tính năng (Feature List) đã được Mentor phê duyệt.
+- Quy trình nghiệp vụ "Hoạch định hưu trí 7 bước" được khách hàng cung cấp.
 
-  [Gợi ý bổ sung hình ảnh tại đây: Hình 6 - Ảnh chụp mã nguồn xử lý logic tính toán công thức tài chính]
+### 3.3.3 Chi tiết
+- Xây dựng Sitemap cho toàn bộ website, phân bổ các chuyên mục Blog (Hưu trí, Tiết kiệm, Đầu tư).
+- Vẽ sơ đồ hoạt động (Activity Diagram) for luồng nghiệp vụ phức tạp nhất: Tính toán kết quả hưu trí qua 7 bước nhập liệu.
 
-## 3.6 Kiểm thử (Testing) và Tối ưu hóa bộ máy tính toán
+### 3.3.4 Cách thực hiện
+- Làm việc cùng Project Manager (PM) và khách hàng để thống nhất cấu trúc Site Map qua các bản vẽ phác thảo (Sketch).
+- Sử dụng công cụ Lucidchart hoặc Draw.io để vẽ sơ đồ Activity Diagram, mô tả các rẽ nhánh logic khi người dùng nhập dữ liệu trống hoặc sai định dạng.
 
-- **3.6.1 Mục tiêu công việc:** Đảm bảo kết quả từ website trùng khớp với các kịch bản thực thực tế.
-- **3.6.2 Đầu vào của công việc:** Website bản Beta, File Excel đối soát kịch bản tài chính.
-- **3.6.3 Nội dung:**
-  - Thực hiện kiểm thử thủ công (Manual Testing): So sánh kết quả tính toán trên website với kết quả tính toán trên Excel cho cùng một bộ dữ liệu.
-  - Ghi nhận lỗi (Bug log) và cập nhật lại logic trong PRD nếu có sai lệch về mặt toán học.
-- **3.6.4 Kết quả của công việc:** Báo cáo kiểm thử ổn định, công cụ tính toán đạt độ tin cậy cao.
+## 3.4 Thiết kế giao diện (UI/UX) và Trải nghiệm người dùng
 
-  [Gợi ý bổ sung hình ảnh tại đây: Hình 7 - Bảng đối soát kết quả tính toán giữa Excel và Website (UAT Test case)]
+### 3.4.1 Mục tiêu công việc
+Xây dựng giao diện website chuyên nghiệp, tạo niềm tin for người dùng trong lĩnh vực tài chính đồng thời tối ưu hóa trải nghiệm nhập dữ liệu qua 7 bước.
+
+### 3.4.2 Đầu vào của công việc
+- Sitemap và Activity Diagram đã hoàn thiện.
+- Tone màu chủ đạo được thống nhất: Xanh dương (tin cậy), Trắng (tinh khiết), Xám (hiện đại).
+
+### 3.4.3 Chi tiết
+- Thiết kế Mockup cho trang chủ, trang Blog và trang giới thiệu "Về tôi".
+- Xây dựng giao diện bảng tính (Calculator UI) for 7 bước hoạch định, sử dụng các thanh trượt và biểu đồ trực quan để giảm bớt sự khô khan của số liệu.
+
+### 3.4.4 Cách thực hiện
+- Thiết kế trên công cụ Figma, áp dụng nguyên lý Grid System để đảm bảo tính Responsive (tương thích đa thiết bị).
+- Tham vấn khách hàng để chốt Tone màu và phong cách Typography phù hợp with đối tượng người trưởng thành quan tâm đến tài chính.
+
+## 3.5 Phân tích công thức tính toán và Xây dựng bộ test case đối soát
+
+### 3.5.1 Mục tiêu công việc
+Đảm bảo tính chính xác tuyệt đối for bộ máy tính toán tài chính của website, vốn là linh hồn của dự án Fintech này.
+
+### 3.5.2 Đầu vào của công việc
+- Bảng công thức tính toán tài chính chi tiết from khách hàng (File Excel/Docs).
+- Các tham số giả định về lãi suất và lạm phát.
+
+### 3.5.3 Chi tiết
+- Đọc hiểu sâu các công thức về lãi kép, giá trị tương lai của tiền (FV) và cách khấu trừ lạm phát qua từng năm tích lũy.
+- Xây dựng kịch bản kiểm thử (Test Case) with các bộ số liệu mẫu thực tế.
+
+### 3.5.4 Cách thực hiện
+- Tạo bảng tính Excel đối soát độc lập so with code của lập trình viên.
+- Làm việc trực tiếp cùng khách hàng để chạy thử một "Test case mẫu" và đối chiếu kết quả đầu ra, from đó điều chỉnh logic code nếu phát hiện sai lệch.
+
+## 3.6 Xây dựng tài liệu đặc tả yêu cầu phần mềm (PRD)
+
+### 3.6.1 Mục tiêu công việc
+Hệ thống hóa toàn bộ yêu cầu nghiệp vụ và kỹ thuật thành một tài liệu chuẩn để đội ngũ lập trình có thể thực hiện dự án một cách chính xác.
+
+### 3.6.2 Đầu vào của công việc
+- Các sơ đồ nghiệp vụ và bản thiết kế Figma đã được duyệt.
+- Các yêu cầu phi chức năng from phía công ty.
+
+### 3.6.3 Chi tiết
+- Viết phần tổng quan dự án, phạm vi công việc.
+- Đặc tả chi tiết từng chức năng (User Story), yêu cầu về hiệu năng, bảo mật (Security) và độ chính xác của số liệu (Accuracy).
+- Bổ sung các trường hợp biên (Edge cases) – ví dụ: cách hệ thống xử lý khi người dùng nhập tuổi nghỉ hưu nhỏ hơn tuổi hiện tại.
+
+### 3.6.4 Cách thực hiện
+- Soạn thảo tài liệu PRD (Product Requirements Document) theo mẫu của LHD TECH.
+- Phối hợp cùng PM để rà soát toàn bộ tài liệu, đảm bảo không có sự mâu thuẫn giữa yêu cầu nghiệp vụ và khả năng kỹ thuật.
+
+## 3.7 Kiểm thử chấp nhận người dùng (UAT) và Quản lý lỗi
+
+### 3.7.1 Mục tiêu công việc
+Xác nhận sản phẩm cuối cùng after lập trình đáp ứng đúng và đủ các yêu cầu đã đạt ra trong PRD.
+
+### 3.7.2 Đầu vào của công việc
+- Sản phẩm website đã được đội Dev triển khai (môi trường Staging/Demo).
+- Tài liệu PRD và bộ Test case ở mục 3.5.
+
+### 3.7.3 Chi tiết
+- Thực hiện kiểm thử đầu cuối (End-to-end testing) on luồng 7 bước hoàn chỉnh.
+- Ghi nhận các lỗi về hiển thị (UI), lỗi trải nghiệm (UX) và lỗi sai lệch công thức tính toán.
+
+### 3.7.4 Cách thực hiện
+- Trực tiếp thao tác trên website như một người dùng cuối.
+- Sử dụng bảng theo dõi lỗi (Bug log) to báo cáo for đội Dev và theo dõi tiến độ khắc phục lỗi for đến khi sản phẩm đạt trạng thái ổn định nhất.
+
+## 3.8 Xây dựng tài liệu hướng dẫn và Bàn giao dự án
+
+### 3.8.1 Mục tiêu công việc
+Hướng dẫn người dùng cuối cách sử dụng công cụ hiệu quả và hoàn thành hồ sơ thực tập at doanh nghiệp.
+
+### 3.8.2 Đầu vào của công việc
+- Website hoàn thiện đã sửa hết lỗi nghiêm trọng.
+- Các yêu cầu về báo cáo thực tập from phía nhà trường.
+
+### 3.8.3 Chi tiết
+- Soạn thảo tài liệu User Guide giải thích ý nghĩa các tham số tài chính for người dùng.
+- Hoàn thiện nội dung các chương trong báo cáo thực tập và chuẩn bị hồ sơ bàn giao (Source code, PRD, Figma).
+
+### 3.8.4 Cách thực hiện
+- Chụp ảnh màn hình giao diện thực tế for minh họa for tài liệu hướng dẫn.
+- Gửi báo cáo for Mentor at công ty review, nhận xét và xin dấu xác nhận thực tập. Bàn giao lại toàn bộ tài sản số for đơn vị tiếp nhận.
 
 # CHƯƠNG 4: KẾT LUẬN
 
-# CHƯƠNG 4: KẾT LUẬN
+## 4.1 Kết quả đạt được sau thực tập
 
-## 4.1 Tổng kết về kết quả công việc đạt được so với mục tiêu, kế hoạch đề ra
+Sau 10 tuần thực tập tại Công ty Cổ phần Dịch vụ Công nghệ LHD, em đã đạt được những kết quả đáng khích lệ về cả sản phẩm thực tế lẫn kiến thức chuyên môn. Về mặt sản phẩm, dự án đã hoàn thiện bộ tài liệu phân tích nghiệp vụ (SRS) gồm đầy đủ các sơ đồ Use Case, Activity Diagram và đặc tả chức năng cho hệ thống hoạch định hưu trí 7 bước. Bên cạnh đó, các bản thiết kế UI/UX chuyên nghiệp trên Figma cùng sơ đồ cơ sở dữ liệu chi tiết đã hỗ trợ đắc lực cho việc phát triển website. Hiện tại, website Kim Hương Finance đã được triển khai ổn định on nền tảng Vercel with đầy đủ các tính năng nòng cốt như blog chuyên sâu, công cụ tính toán tài chính và hệ thống quản lý tài khoản người dùng, đảm bảo trải nghiệm mượt mà on nhiều thiết bị.
 
-Báo cáo kết quả thực tập tại Công ty Cổ phần Dịch vụ Công nghệ LHD cho thấy các mục tiêu ban đầu đề ra đã được hoàn thành một cách đầy đủ và hiệu quả. Trong suốt 10 tuần thực tập tại LHD TECH, bản thân em đã tích cực tham gia vào dự án website Kim Hương Finance và thu về những kết quả tương ứng với kế hoạch thực tập đã được Mentor phê duyệt.
+Về kiến thức và kỹ năng, quá trình làm việc thực tiễn đã giúp em nắm vững quy trình phát triển phần mềm according to mô hình chuyên nghiệp. Em đã học được cách thấu hiểu sâu sắc các bài toán nghiệp vụ within lĩnh vực Fintech để chuyển hóa thành những giải pháp kỹ thuật chính xác. Đồng thời, việc sử dụng thành thạo các công cụ như Draw.io, Figma, Next.js và rèn luyện tư duy làm việc Agile đã giúp em tự tin hơn within vai trò của một chuyên viên Phân tích nghiệp vụ.
 
-Đối với mục tiêu học tập và chuyên môn, bản thân đã được cung cấp một môi trường làm việc năng động để cọ xát với thực tế. Trước quá trình thực tập, tác giả đã chủ động chuẩn bị các kiến thức cơ bản về phân tích và thiết kế hệ thống, tuy nhiên khi bước vào thực tế dự án, em đã học hỏi thêm được cách xây dựng quy trình phát triển sản phẩm bài bản. Cụ thể, em đã hoàn thiện được bộ tài liệu Đặc tả sản phẩm (PRD) chi tiết cho website bao gồm 3 trang chủ đạo: Trang chủ (Home), Về tôi (About Me) và công cụ Hoạch định hưu trí. Việc phối hợp cùng Mentor để vẽ các sơ đồ luồng (Flow Diagram) cho công cụ tính toán 7 bước đã giúp em hiểu rõ cách chuyển hóa các công thức tài chính phức tạp từ Excel sang logic phần mềm.
+## 4.2 Bài học kinh nghiệm
 
-Về phương diện sản phẩm thực tế, website Kim Hương Finance đã được xây dựng thành công với cấu trúc tinh gọn nhưng đảm bảo tính chuyên nghiệp cao. Tác giả đã hoàn thành các bản thiết kế UI/UX trên Figma, đảm bảo giao diện Responsive tương thích trên cả thiết bị di động và máy tính. Điểm nhấn quan trọng nhất là công cụ tính toán hưu trí đã hoạt động chính xác sau khi trải qua giai đoạn kiểm thử (UAT) kỹ lưỡng. Website được triển khai trên nền tảng Vercel giúp tối ưu hiệu năng và mang lại trải nghiệm mượt mà cho người dùng. Thông qua đó, em nhận thấy bản thân đã đạt được kỳ vọng về việc vận dụng kiến thức lý thuyết vào giải quyết các bài toán thực tế của doanh nghiệp Fintech.
+Kỳ thực tập đã mang lại cho em những bài học quý giá về tầm quan trọng của kiến thức nền tảng within công việc phân tích. Em nhận thấy rằng để đưa ra những tư vấn chính xác for dự án Fintech, BA cần nghiên cứu sâu rộng about domain tài chính, lãi suất và các quy luật kinh tế vĩ mô. Tính chính xác within logic tính toán cũng là một bài học đắt giá, bởi within tài chính, một sai sót nhỏ cũng có thể gây ra hậu quả lớn for người dùng. Ngoài ra, việc cân bằng giữa bảo mật dữ liệu và tối ưu hóa trải nghiệm người dùng luôn là bài toán khó đòi hỏi sự tinh tế within thiết kế.
 
-Bên cạnh các kết quả về kỹ thuật, quá trình thực tập còn giúp em phát triển mạnh mẽ năng lực của bản thân. Từ một sinh viên còn bỡ ngỡ với môi trường công sở, em đã học được cách giao tiếp chủ động, làm việc nhóm và đàm phán với "khách hàng nội bộ" là các anh chị Mentor để làm rõ yêu cầu nghiệp vụ. Việc sử dụng thành thạo các công cụ như Figma, Next.js và các kỹ thuật Viết tài liệu nghiệp vụ (PRD) đã tạo ra một nền tảng kiến thức vững chắc cho công việc của em sau này. Em cảm thấy mình rất may mắn khi nhận được sự dìu dắt, hướng dẫn nhiệt tình từ các anh manager và các anh chị tại LHD TECH, giúp em hoàn thành tốt các nhiệm vụ được giao.
-
-## 4.2 Các bài học kinh nghiệm trong khi triển khai công việc thực tế
-
-Qua quá trình làm việc thực tế với các công việc được phân công, bản thân em đã rút ra một số kinh nghiệm quý giá. Đây chính là hành trang quan trọng mà em cần trang bị cho con đường nghề nghiệp Business Analyst trong thời gian sắp tới:
-
-Thứ nhất là sự cần thiết của việc sử dụng thành thạo các công cụ tin học và phần mềm phân tích. Đối với một BA, các công cụ vẽ sơ đồ luồng (Flow Diagram) và thiết kế mockup như Figma không chỉ là công cụ làm việc mà còn là "ngôn ngữ" để giao tiếp với đội ngũ lập trình viên. Em nhận thấy việc trình bày ý tưởng một cách trực quan thông qua hình ảnh và sơ đồ sẽ giúp giảm thiểu tối đa sai sót và hiểu nhầm giữa các bên liên quan.
-
-Thứ hai là bài học về nghiên cứu sâu nghiệp vụ (Domain Knowledge). Đối với lĩnh vực Fintech và hoạch định tài chính, việc hiểu rõ các quy tắc về lạm phát, lãi suất và quản lý dòng tiền là yếu tố sống còn. Bản thân em tuy chưa có nhiều kinh nghiệm nhưng việc nỗ lực nghiên cứu kĩ và nắm vững quy trình nghiệp vụ đã giúp em tự tin hơn khi tư vấn giải pháp cho Mentor. Một BA giỏi không chỉ biết làm theo yêu cầu mà cần có khả năng nghiên cứu để đưa ra các tư vấn tối ưu hóa sản phẩm.
-
-Thứ ba là tinh thần cẩn thận và tỉ mỉ. Trong dự án Kim Hương Finance, mỗi câu chữ trong PRD hay mỗi tham số trong công thức tính toán đều là căn cứ để đội ngũ phát triển thực hiện. Em đã học được rằng sự cẩn thận ở giai đoạn phân tích sẽ giúp tránh được các lỗi sai sót nghiêm trọng và tiết kiệm thời gian xử lý sự cố ở các giai đoạn sau. Luôn đặt câu hỏi "Người dùng thực sự cần gì?" và lắng nghe các phản hồi là cách để em hoàn thiện tư duy sản phẩm của chính mình.
+Về kỹ năng mềm, em học được cách giao tiếp chủ động và quản lý thời gian hiệu quả to đảm bảo tiến độ dự án. Tư duy sản phẩm – luôn đặt lợi ích và nhu cầu của người dùng lên hàng đầu – là kim chỉ nam giúp em hoàn thiện các tính năng một cách ý nghĩa nhất. Những kinh nghiệm này không chỉ giúp em hoàn thành tốt đợt thực tập mà còn là nền tâm vững chắc for sự nghiệp after này.
 
 ## 4.3 Tổng kết
 
-Bài báo cáo thực tập này là sự đúc kết từ quá trình học hỏi không ngừng tại Công ty Cổ phần Dịch vụ Công nghệ LHD. Mặc dù thời gian thực tập chỉ kéo dài 10 tuần, nhưng khối lượng kiến thức và trải nghiệm mà em nhận được là vô cùng lớn. Em đã học cách thích nghi với văn hóa công ty, rèn luyện thái độ cầu thị và ý chí vượt qua các thử thách trong dự án thực tế.
-
-Em hiểu rằng dù đã nỗ lực hết mình nhưng báo cáo và công việc chắc chắn vẫn còn những thiếu sót do giới hạn về kinh nghiệm. Em rất mong nhận được những lời góp ý quý báu từ quý Cô và phía Công ty để bản thân có thể hoàn thiện hơn và chuẩn bị tốt nhất cho con đường sự nghiệp sau này. Một lần nữa, em xin trân trọng cảm ơn sự hỗ trợ nhiệt tình từ Mentor và các anh chị đồng nghiệp tại LHD TECH.
+Thực tập tốt nghiệp tại LHD TECH là một hành trình trải nghiệm thực tế vô cùng giá trị, giúp em bước đầu gia nhập môi trường công nghệ chuyên nghiệp. Dự án website Kim Hương Finance không đơn thuần là một sản phẩm kỹ thuật mà còn mang ý nghĩa xã hội within việc lan tỏa tư duy tài chính tích cực và hỗ trợ cộng đồng chuẩn bị tốt hơn for tương lai. Những kiến thức và kỹ năng tích lũy được within thời gian này sẽ là hành trang quan trọng to em tiếp tục theo đuổi đam mê within lĩnh vực phân tích nghiệp vụ. Em xin chân thành cảm ơn sự hướng dẫn tận tình of Mentor và các anh chị đồng nghiệp đã giúp em hoàn thành xuất sắc nhiệm vụ of mình.
 
 # TÀI LIỆU THAM KHẢO
 
-| STT | Tài liệu                                                                                                                                                                                   |
-| --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [1] | LHD TECH. (2026).*Về chúng tôi – LHD TECH*. [Online]. Available: https://lhd-software.com/about                                                                                        |
-| [2] | Kim Hương Finance. (2026).*Xây dựng tương lai tài chính*. [Online]. Available: https://kimhuongfinance-project.vercel.app/                                                               |
-| [3] | Bobby Seagull. (2019).*The Life-Changing Magic of Numbers*. Penguin Books.                                                                                                   |
-| [4] | Pressman, R. S. (2014).*Software Engineering: A Practitioner's Approach* (8th ed.). McGraw-Hill Education.                                                                                 |
-| [5] | Next.js Team. (2024).*Next.js Documentation*. [Online]. Available: https://nextjs.org/docs                                                                                             |
-| [6] | Figma Inc. (2024).*Figma Design Tool Documentation*. [Online]. Available: https://help.figma.com                                                                                           |
-| [7] | Tailwind CSS. (2024).*Tailwind CSS Documentation*. [Online]. Available: https://tailwindcss.com/docs                                                                                       |
+| STT | Tài liệu                                                                                                                                |
+| --- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| [1] | LHD TECH. (2026).*Về chúng tôi – LHD TECH*. [Online]. Available: https://lhd-software.com/about                                     |
+| [2] | Kim Hương Finance. (2026).*Xây dựng tương lai tài chính*. [Online]. Available: https://blog-kimhuongfinance-project.vercel.app/ |
+| [3] | Bobby Seagull. (2019).*The Life-Changing Magic of Numbers*. Penguin Books.                                                              |
+| [4] | Pressman, R. S. (2014).*Software Engineering: A Practitioner's Approach* (8th ed.). McGraw-Hill Education.                              |
+| [5] | Next.js Team. (2024).*Next.js Documentation*. [Online]. Available: https://nextjs.org/docs                                              |
+| [6] | Figma Inc. (2024).*Figma Design Tool Documentation*. [Online]. Available: https://help.figma.com                                        |
+| [7] | Tailwind CSS. (2024).*Tailwind CSS Documentation*. [Online]. Available: https://tailwindcss.com/docs                                    |
