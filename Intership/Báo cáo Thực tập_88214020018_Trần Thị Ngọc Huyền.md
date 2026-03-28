@@ -35,7 +35,7 @@ Trong suốt quá trình học tập và rèn luyện tại Trường Kinh tế 
 
 Trước hết, em xin gửi lời cảm ơn chân thành và sâu sắc nhất đến **Th.S Hồ Thị Thanh Tuyến** – giảng viên hướng dẫn trực tiếp của em. Cô đã luôn tận tâm định hướng, góp ý và hỗ trợ em từ những bước đầu tiên trong việc xác định đề tài cho đến khi hoàn thiện báo cáo này. Những chia sẻ, nhận xét chuyên môn quý báu của cô đã giúp em hiểu rõ hơn về phương pháp nghiên cứu và cách tiếp cận bài bản trong lĩnh vực phân tích nghiệp vụ.
 
-Em cũng xin trân trọng cảm ơn **Công ty Cổ phần Dịch vụ Công nghệ LHD** – đặc biệt là **anh Nguyễn Hữu Đạt** (CEO) và toàn thể đội ngũ tại công ty – đã tạo cơ hội quý báu để em được tham gia thực tập và đóng góp vào dự án thiết kế website Blog cá nhân và công cụ hoạch định tài chính Kim Hương Finance. Anh và các anh chị trong công ty đã nhiệt tình hướng dẫn, hỗ trợ và chia sẻ kinh nghiệm thực tế, giúp em tiếp cận môi trường làm việc chuyên nghiệp và tích lũy được những kỹ năng thực tiễn vô cùng thiết thực.
+Em cũng xin trân trọng cảm ơn **Công ty Cổ phần Dịch vụ Công nghệ LHD** – đặc biệt là **anh Nguyễn Hữu Đạt** (CEO) và toàn thể đội ngũ tại công ty – đã tạo cơ hội quý báu để em được tham gia thực tập và đóng góp vào dự án thiết kế website hoạch định tài chính và hoạch định tài chính Kim Hương Finance. Anh và các anh chị trong công ty đã nhiệt tình hướng dẫn, hỗ trợ và chia sẻ kinh nghiệm thực tế, giúp em tiếp cận môi trường làm việc chuyên nghiệp và tích lũy được những kỹ năng thực tiễn vô cùng thiết thực.
 
 Cuối cùng, em xin gửi lời cảm ơn đến gia đình, bạn bè đã luôn động viên và đồng hành cùng em trong suốt thời gian học tập và thực tập.
 
@@ -179,7 +179,7 @@ Song hành cùng bộ phận kỹ thuật là Bộ phận Phân tích nghiệp v
 
 ## 1.2 Mô tả vắn tắt công việc đã được làm
 
-Trong thời gian thực tập tại Công ty Cổ phần Dịch vụ Công nghệ LHD with vị trí **Business Analyst – Blog cá nhân & Fintech**, em đã được tham gia trực tiếp vào dự án xây dựng **website Kim Hương Finance** – một website tích hợp công cụ hoạch định tài chính và hưu trí chuyên nghiệp.
+Trong thời gian thực tập tại Công ty Cổ phần Dịch vụ Công nghệ LHD with vị trí **Business Analyst – Website Tài chính & Hưu trí**, em đã được tham gia trực tiếp vào dự án xây dựng **website Kim Hương Finance** – một website tích hợp công cụ hoạch định tài chính và hưu trí chuyên nghiệp.
 
 Cụ thể, các công việc em đã thực hiện bao gồm:
 
