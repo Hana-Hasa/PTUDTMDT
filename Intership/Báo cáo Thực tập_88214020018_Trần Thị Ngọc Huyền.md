@@ -376,24 +376,27 @@ Em đã sử dụng công cụ Mermaid.js để trực quan hóa các luồng ng
 ## 3.4 Thiết kế giao diện (UI/UX) và Trải nghiệm người dùng
 
 ### 3.4.1 Mục tiêu công việc
-
-Xây dựng giao diện website chuyên nghiệp, tạo niềm tin for người dùng trong lĩnh vực tài chính đồng thời tối ưu hóa trải nghiệm nhập dữ liệu qua 7 bước.
+Mục tiêu chính của em trong giai đoạn này là hiện thực hóa các yêu cầu nghiệp vụ thành một giao diện trực quan, chuyên nghiệp và đầy cảm hứng. Trong lĩnh vực tài chính cá nhân, giao diện không chỉ cần đẹp mà còn phải khơi gợi được niềm tin (Trust) và sự an tâm cho người dùng. Em muốn tạo ra một không gian số nơi khách hàng cảm thấy việc lập kế hoạch hưu trí là một hành trình thú vị và đầy hy vọng, chứ không phải là những con số khô khan.
 
 ### 3.4.2 Đầu vào của công việc
-
-- Sitemap và Activity Diagram đã hoàn thiện.
-- Tone màu chủ đạo được thống nhất: Xanh dương (tin cậy), Trắng (tinh khiết), Xám (hiện đại).
+Để bắt đầu thiết kế, em căn cứ vào sơ đồ Sitemap và các luồng nghiệp vụ đã thống nhất ở mục 3.3. Ngoài ra, em cũng nghiên cứu các xu hướng thiết kế giao diện hiện đại (Modern UI) trong ngành Fintech, đồng thời lắng nghe những chia sẻ về phong cách cá nhân của chị Kim Hương để đảm bảo website mang đậm dấu ấn thương hiệu riêng – nhẹ nhàng, chân thành nhưng vẫn rất chuyên gia.
 
 ### 3.4.3 Chi tiết
+Trong phần này, em đã trực tiếp thực hiện bản thiết kế Mockup trên phần mềm Figma và tư vấn hệ thống nhận diện hình ảnh cho dự án với các chi tiết cụ thể như sau:
 
-- Thiết kế Mockup cho trang chủ, trang giới thiệu "Về tôi".
-- Xây dựng giao diện bảng tính (Calculator UI) for 7 bước hoạch định, sử dụng các thanh trượt và biểu đồ trực quan để giảm bớt sự khô khan của số liệu.
+**1. Hệ thống màu sắc (Color Palette) và Font chữ:**
+Em đã tư vấn cho khách hàng sử dụng bộ nhận diện "Sterling Ledger" với các thông số kỹ thuật:
+- **Màu chủ đạo (Primary - #1E3A5F):** Tông xanh đại dương sâu thẳm được em chọn làm màu nền chính cho các thanh điều hướng và đề mục trọng tâm nhằm tạo cảm giác tin cậy, vững chãi và ổn định.
+- **Màu nhấn (Secondary - #DC2626):** Màu đỏ đỏ năng lượng được em sử dụng tinh tế cho các nút hành động (CTA) như "Lập kế hoạch ngay" hay các con số cảnh báo, giúp thu hút sự chú ý của người dùng.
+- **Font chữ:** Em kết hợp giữa kiểu chữ Serif (có chân) cho các tiêu đề chính để tạo vẻ sang trọng, cổ điển và kiểu chữ Sans-serif (không chân) cho phần nội dung để đảm bảo tính dễ đọc trên mọi thiết bị.
+
+**2. Thiết kế các màn hình trọng tâm:**
+- **Trang chủ (Homepage):** Em thiết kế phần Hero Section với slogan đầy ý nghĩa: *"Nghỉ hưu không phải là kết thúc, mà là khởi đầu của tự do"*. Phía dưới là các khối thông tin tóm tắt về kinh nghiệm và sứ mệnh của dự án để củng cố niềm tin cho khách viếng thăm.
+- **Trang Giới thiệu (Về tôi):** Bố cục được em sắp xếp trang trọng để trình bày tiểu sử, các cột mốc sự nghiệp và sứ mệnh "Hành trình khởi nghiệp tài chính" của chị Kim Hương.
+- **Công cụ Hưu trí (Calculator UI):** Đây là phần em dành nhiều tâm huyết nhất với giao diện tối giản, các biểu đồ trực quan và thanh tiến độ rõ ràng giúp người dùng dễ dàng theo dõi từng bước trong lộ trình 7 bước hoạch định tương lai tài chính.
 
 ### 3.4.4 Cách thực hiện
-
-- Thiết kế trên công cụ Figma, áp dụng nguyên lý Grid System để đảm bảo tính Responsive (tương thích đa thiết bị).
-- Tham vấn khách hàng để chốt Tone màu và phong cách Typography phù hợp with đối tượng người trưởng thành quan tâm đến tài chính.
-
+Em đã tiến hành xây dựng các Component và Grid System trên Figma để đảm bảo tính nhất quán (Consistency) cho toàn bộ website. Trong quá trình thiết kế, em luôn chú trọng đến tính Responsive để giao diện hiển thị mượt mà trên cả máy tính lẫn thiết bị di động. Sau khi hoàn thành bản Mockup, em đã có buổi trình bày trực tiếp với Mentor và khách hàng để giải thích về ý nghĩa của bảng màu cũng như cách sắp xếp bố cụ, từ đó tiếp thu các ý kiến đóng góp và tinh chỉnh lại các khoảng cách (spacing), kích thước chữ cho đến khi đạt được kết quả hoàn hảo nhất.
 ## 3.5 Phân tích công thức tính toán và Xây dựng bộ test case đối soát
 
 ### 3.5.1 Mục tiêu công việc
